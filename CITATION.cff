@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the relevant paper listed under references, or this repository. The papers have not yet been peer reviewed."
+title: "Vortex stability papers: Montaldi–Tokieda Conjecture 13, finite-core Thomson heptagon, and vortex rings and rows on the hyperbolic plane"
+type: software
+authors:
+  - family-names: Speagle
+    given-names: Gordon
+    affiliation: Independent Researcher, Boise, ID, USA
+    email: gspeagle@gmail.com
+version: 1.0.0
+date-released: 2026-10-23
+license: MIT
+repository-code: "https://github.com/speagleg/vortex-stability-papers"
+keywords:
+  - point vortices
+  - vortex rings
+  - vortex patches
+  - hyperbolic plane
+  - stability
+  - computer-assisted proof
+  - Lean 4
+references:
+  - type: unpublished
+    title: "The regular n-gon of point vortices is stable at its bifurcation point: Montaldi–Tokieda's Conjecture 13 for every n ≥ 4"
+    authors:
+      - family-names: Speagle
+        given-names: Gordon
+    year: 2026
+    notes: "Not peer reviewed. papers/01-conjecture-13/paper/main.pdf in this repository."
+    url: "https://github.com/speagleg/vortex-stability-papers/blob/main/papers/01-conjecture-13/paper/main.pdf"
+  - type: unpublished
+    title: "Finite cores stabilise Thomson's heptagon"
+    authors:
+      - family-names: Speagle
+        given-names: Gordon
+    year: 2026
+    notes: "Not peer reviewed. papers/02-finite-core-heptagon/paper/main.pdf in this repository."
+    url: "https://github.com/speagleg/vortex-stability-papers/blob/main/papers/02-finite-core-heptagon/paper/main.pdf"
+  - type: unpublished
+    title: "Vortex rings and rows on the hyperbolic plane: one stability boundary through the horocycle"
+    authors:
+      - family-names: Speagle
+        given-names: Gordon
+    year: 2026
+    notes: "Not peer reviewed. papers/03-hyperbolic-rings-rows/paper/main.pdf in this repository."
+    url: "https://github.com/speagleg/vortex-stability-papers/blob/main/papers/03-hyperbolic-rings-rows/paper/main.pdf"
