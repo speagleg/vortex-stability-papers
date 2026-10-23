@@ -1,0 +1,12 @@
+lean/.lake/
+__pycache__/
+*.aux
+*.log
+*.out.tmp
+*.blg
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+.claude/
+paper/main.out
