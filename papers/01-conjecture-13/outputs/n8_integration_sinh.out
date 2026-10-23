@@ -1,0 +1,6 @@
+N=8 sinh: xi*=0.0627460668062279, T=2000, delta=0.001, rel in (-0.01, -0.001, 0.0, 0.01)
+sinh rel=-1e-02 delta=1e-03: D0=1.0630e-03  max D/D0=29.338  max D=0.0312  frac(D<D0/2)=0.00  |dH|<1e-7: True  |dJ|<1e-8: True
+sinh rel=-1e-03 delta=1e-03: D0=1.0685e-03  max D/D0=9.125  max D=0.00975  frac(D<D0/2)=0.00  |dH|<1e-7: True  |dJ|<1e-8: True
+sinh rel=+0e+00 delta=1e-03: D0=1.0691e-03  max D/D0=1.000  max D=0.00107  frac(D<D0/2)=0.38  |dH|<1e-7: True  |dJ|<1e-8: True
+sinh rel=+1e-02 delta=1e-03: D0=1.0752e-03  max D/D0=1.000  max D=0.00108  frac(D<D0/2)=0.33  |dH|<1e-7: True  |dJ|<1e-8: True
+expected: rel < 0 saturates (max D roughly proportional to sqrt|rel|); rel >= 0 stays within D0 (max D/D0 = 1.000)

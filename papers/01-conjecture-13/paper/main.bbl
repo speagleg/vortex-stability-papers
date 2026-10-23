@@ -1,0 +1,89 @@
+\begin{thebibliography}{10}
+
+\bibitem{BK}
+A.~V. Borisov and A.~A. Kilin.
+\newblock Stability of {T}homson's configurations of vortices on a sphere.
+\newblock {\em Regular and Chaotic Dynamics}, 5(2), 2000.
+\newblock arXiv:nlin/0503068.
+
+\bibitem{CGGL}
+Kevin Constantineau, Carlos Garc{\'\i}a-Azpeitia, Luis~C. Garc{\'\i}a-Naranjo,
+  and Jean-Philippe Lessard.
+\newblock Determination of stable branches of relative equilibria of the
+  {$N$}-vortex problem on the sphere.
+\newblock {\em Communications in Mathematical Physics}, 406(2):Paper No.~47,
+  2025.
+\newblock arXiv:2309.04320.
+
+\bibitem{Kurakin03}
+L.~G. Kurakin.
+\newblock On the nonlinear stability of regular vortex polygons and polyhedrons
+  on a sphere.
+\newblock {\em Doklady Physics}, 48(2):84--89, 2003.
+
+\bibitem{Kurakin04}
+L.~G. Kurakin.
+\newblock On nonlinear stability of the regular vortex systems on a sphere.
+\newblock {\em Chaos}, 14(3):592--602, 2004.
+
+\bibitem{Kurakin10}
+L.~G. Kurakin.
+\newblock On the stability of {T}homson's vortex configurations inside a
+  circular domain.
+\newblock {\em Regular and Chaotic Dynamics}, 15(1):40--58, 2010.
+
+\bibitem{KY}
+L.~G. Kurakin and V.~I. Yudovich.
+\newblock The stability of stationary rotation of a regular vortex polygon.
+\newblock {\em Chaos}, 12(3):574--595, 2002.
+
+\bibitem{Montaldi97}
+James Montaldi.
+\newblock Persistence and stability of relative equilibria.
+\newblock {\em Nonlinearity}, 10(2):449--466, 1997.
+
+\bibitem{MT}
+James Montaldi and Tadashi Tokieda.
+\newblock Deformation of geometry and bifurcations of vortex rings.
+\newblock In {\em Recent Trends in Dynamical Systems}, volume~35 of {\em
+  Springer Proceedings in Mathematics \& Statistics}, pages 335--370. Springer,
+  Basel, 2013.
+\newblock arXiv:1210.5662 (v1 cited for page numbers).
+
+\bibitem{OR99}
+Juan-Pablo Ortega and Tudor~S. Ratiu.
+\newblock Stability of {H}amiltonian relative equilibria.
+\newblock {\em Nonlinearity}, 12(3):693--720, 1999.
+
+\bibitem{OR04}
+Juan-Pablo Ortega and Tudor~S. Ratiu.
+\newblock {\em Momentum Maps and {H}amiltonian Reduction}, volume 222 of {\em
+  Progress in Mathematics}.
+\newblock Birkh{\"a}user, Boston, 2004.
+
+\bibitem{Patrick92}
+George~W. Patrick.
+\newblock Relative equilibria in {H}amiltonian systems: the dynamic
+  interpretation of nonlinear stability on a reduced phase space.
+\newblock {\em Journal of Geometry and Physics}, 9(2):111--119, 1992.
+
+\bibitem{PRW}
+George~W. Patrick, Mark Roberts, and Claudia Wulff.
+\newblock Stability of {P}oisson equilibria and {H}amiltonian relative
+  equilibria by energy methods.
+\newblock {\em Archive for Rational Mechanics and Analysis}, 174(3):301--344,
+  2004.
+\newblock arXiv:math/0201239.
+
+\bibitem{Schmidt}
+Dieter Schmidt.
+\newblock The stability of the {T}homson heptagon.
+\newblock {\em Regular and Chaotic Dynamics}, 9(4):519--528, 2004.
+
+\bibitem{Thomson}
+J.~J. Thomson.
+\newblock {\em A Treatise on the Motion of Vortex Rings. {An} Essay to which
+  the {Adams} Prize was Adjudged in 1882, in the {University} of {Cambridge}}.
+\newblock Macmillan, London, 1883.
+
+\end{thebibliography}

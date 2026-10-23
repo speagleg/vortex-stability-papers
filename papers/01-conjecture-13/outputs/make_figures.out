@@ -1,0 +1,5 @@
+fig1: (F-F0)/v^4 at v=0.01: line 3.690511 level 4.000065 free 3.332996; D=3.690599
+fig2: rel=-1e-02 max_t D/D0 over [0,2000] = 29.3382
+fig2: rel=-1e-03 max_t D/D0 over [0,2000] = 9.1248
+fig2: rel=+1e-02 max_t D/D0 over [0,2000] = 1.0000
+fig2: rel=+0e+00 max_t D/D0 over [0,2000] = 1.0000

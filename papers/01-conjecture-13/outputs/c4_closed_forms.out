@@ -1,0 +1,26 @@
+conversion: c4_new = c4_MT/2 (H halved; eps = log-polar unit amplitude; level set unchanged)
+cols: n | parity | geometry | c4_MT (closed form) | = paper table | c4_new | c4_new (15 d) | c4_new*256n (odd) or *384n(n-1) (even) | Riemannian-unit c4
+n= 4 | even | sphere |        1/4 | True |        1/8 | 0.125 | new closed form True | 9/32
+n= 5 | odd  | sphere |       9/40 | True |       9/80 | 0.1125 | new closed form True | 9/20
+n= 6 | even | sphere |      23/30 | True |      23/60 | 0.383333333333333 | new closed form True | 115/12
+n= 7 | odd  | plane  |       9/14 | True |       9/28 | 0.321428571428571 | new closed form True | undefined (plane: scale-free)
+n= 8 | even | H^2    |      95/56 | True |     95/112 | 0.848214285714286 | new closed form True | 665/64
+n= 9 | odd  | H^2    |      19/12 | True |      19/24 | 0.791666666666667 | new closed form True | 19/6
+n=10 | even | H^2    |      49/15 | True |      49/30 | 1.63333333333333 | new closed form True | 27/10
+n=11 | odd  | H^2    |      75/22 | True |      75/44 | 1.70454545454545 | new closed form True | 75/44
+n=12 | even | H^2    |    755/132 | True |    755/264 | 2.85984848484848 | new closed form True | 8305/4704
+n=13 | odd  | H^2    |    675/104 | True |    675/208 | 3.24519230769231 | new closed form True | 75/52
+n=14 | even | H^2    |   1693/182 | True |   1693/364 | 4.6510989010989 | new closed form True | 22009/14812
+n=15 | odd  | H^2    |       56/5 | True |       28/5 | 5.6 | new closed form True | 7/5
+n=16 | even | H^2    |    1141/80 | True |   1141/160 | 7.13125 | new closed form True | 51345/36992
+n=17 | odd  | H^2    |     609/34 | True |     609/68 | 8.95588235294118 | new closed form True | 609/425
+n=18 | even | H^2    |   3190/153 | True |   1595/153 | 10.4248366013072 | new closed form True | 27115/19881
+n=19 | odd  | H^2    |         27 | True |       27/2 | 13.5 | new closed form True | 3/2
+n=20 | even | H^2    |  11139/380 | True |  11139/760 | 14.6565789473684 | new closed form True | 211641/153760
+n=21 | odd  | H^2    |    2175/56 | True |   2175/112 | 19.4196428571429 | new closed form True | 2175/1372
+n=22 | even | H^2    |   6145/154 | True |   6145/308 | 19.9512987012987 | new closed form True | 387135/274604
+n=23 | odd  | H^2    |    2475/46 | True |    2475/92 | 26.9021739130435 | new closed form True | 2475/1472
+n=24 | even | H^2    |  29183/552 | True | 29183/1104 | 26.4338768115942 | new closed form True | 95887/65856
+n=25 | odd  | H^2    |   7227/100 | True |   7227/200 | 36.135 | new closed form True | 803/450
+ALL CHECKS PASS: True
+odd formula at n=3: 0 ; disc(n^2-9n+38) = -71
