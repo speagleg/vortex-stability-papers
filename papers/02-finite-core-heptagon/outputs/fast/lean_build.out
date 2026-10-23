@@ -1,0 +1,37 @@
+⚠ [8926/8931] Replayed Heptagon.Elimination
+warning: Heptagon/Elimination.lean:32:13: This simp argument is unused:
+  h2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h3, normSq_apply, mul_re, mul_im, re_ofNat, im_ofNat, ofReal_re, ofReal_im]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Heptagon/Elimination.lean:32:21: This simp argument is unused:
+  normSq_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h2, h3, mul_re, mul_im, re_ofNat, im_ofNat, ofReal_re, ofReal_im]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Heptagon/Elimination.lean:32:35: This simp argument is unused:
+  mul_re
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h2, h3, normSq_apply, mul_im, re_ofNat, im_ofNat, ofReal_re, ofReal_im]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Heptagon/Elimination.lean:32:43: This simp argument is unused:
+  mul_im
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h2, h3, normSq_apply, mul_re, re_ofNat, im_ofNat, ofReal_re, ofReal_im]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8928/8931] Replayed Heptagon.Curved
+warning: Heptagon/Curved.lean:41:48: Variable name `h2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (8931 jobs).

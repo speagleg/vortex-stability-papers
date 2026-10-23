@@ -1,0 +1,7 @@
+lattice sums (N=7, m=3): mu = -1.0, Lambda+ = 10.0, Lambda- = 6.0, kappa = 22.0
+  slaved: d_perp = (L+^2+L-^2)/4 + mu*kappa + 2 mu^2 = 34.0 + -22.0 + 2.0 = 14.0
+          d_par  = (L+^2+L-^2)/4 - mu*kappa = 56.0
+  frozen: d_perp = mu*kappa + 2 mu^2 = -20.0,  d_par = -mu*kappa = 22.0
+direct finite differences, slaved: Omega_1 = -1.0, d_perp = 14.0, d_par = 56.0
+direct finite differences, frozen: Omega_1 = -1.0, d_perp = -20.0, d_par = 22.0
+Heptagon slow block with frozen ellipses: a_perp a_par = (-20 eps)(6 + 22 eps) < 0 -> unstable (Lemma 2.1).

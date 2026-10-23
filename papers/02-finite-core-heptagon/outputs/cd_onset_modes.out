@@ -1,0 +1,36 @@
+Eigenvalues of Bloch blocks m = 1, 2 with 2.5 < |Im| < 8 (normalised units); frac1 = share of the boundary
+perturbation norm in Fourier modes k = +-1 (patch displacement), kdom = dominant |k| (k != 0).
+a=0.20000 m=1: -2.12e-14-3.14098i (frac1=0.98, kdom=1); -1.19e-14+3.00261i (frac1=1.00, kdom=1)
+a=0.20000 m=2: 
+a=0.22000 m=1: +4.56e-14-3.25082i (frac1=0.96, kdom=1); +5.95e-14+3.00437i (frac1=0.99, kdom=1)
+a=0.22000 m=2: +8.46e-14-2.58015i (frac1=0.96, kdom=1)
+a=0.24000 m=1: -8.87e-14-3.48222i (frac1=0.90, kdom=1); -8.45e-14+3.00739i (frac1=0.99, kdom=1)
+a=0.24000 m=2: -9.84e-14-2.88770i (frac1=0.90, kdom=1)
+a=0.25000 m=1: -3.90e-14-3.72918i (frac1=0.81, kdom=1); +1.39e-14+3.00976i (frac1=0.98, kdom=1)
+a=0.25000 m=2: -9.17e-14-3.21356i (frac1=0.82, kdom=1)
+a=0.25500 m=1: -7.12e-14-7.49484i (frac1=0.07, kdom=2); +1.98e-15-3.95116i (frac1=0.72, kdom=1); +9.60e-15+3.01130i (frac1=0.98, kdom=1)
+a=0.25500 m=2: +2.71e-16-7.18713i (frac1=0.12, kdom=2); +3.12e-14-3.50833i (frac1=0.74, kdom=1)
+a=0.25800 m=1: +1.07e-13-6.83948i (frac1=0.11, kdom=2); +1.51e-14-4.16669i (frac1=0.63, kdom=1); +7.19e-14+3.01238i (frac1=0.97, kdom=1)
+a=0.25800 m=2: -2.20e-14-6.45742i (frac1=0.17, kdom=2); -1.04e-14-3.80230i (frac1=0.66, kdom=1)
+a=0.26000 m=1: -5.99e-14-6.31592i (frac1=0.15, kdom=2); -3.03e-14-4.39611i (frac1=0.55, kdom=1); -1.95e-14+3.01319i (frac1=0.97, kdom=1); -5.78e-14+7.72254i (frac1=0.00, kdom=2)
+a=0.26000 m=2: -3.97e-14-5.82877i (frac1=0.23, kdom=2); -6.65e-14-4.14033i (frac1=0.57, kdom=1); -5.14e-14+7.75518i (frac1=0.00, kdom=2)
+a=0.26100 m=1: +5.47e-14-5.98822i (frac1=0.18, kdom=2); +2.39e-14-4.57594i (frac1=0.49, kdom=1); +9.56e-14+3.01363i (frac1=0.97, kdom=1); +3.61e-15+7.57642i (frac1=0.00, kdom=2)
+a=0.26100 m=2: -8.44e-14-5.35300i (frac1=0.30, kdom=2); +8.83e-14-4.47031i (frac1=0.48, kdom=2); -4.57e-15+7.61184i (frac1=0.00, kdom=2)
+a=0.26130 m=1: +5.47e-14-5.87048i (frac1=0.20, kdom=2); -9.52e-14-4.64919i (frac1=0.46, kdom=2); -4.29e-14+3.01376i (frac1=0.97, kdom=1); +2.17e-14+7.53247i (frac1=0.00, kdom=2)
+a=0.26130 m=2: -2.10e-13-5.09002i (frac1=0.35, kdom=2); +2.45e-13-4.68945i (frac1=0.43, kdom=2); +5.50e-15+7.56878i (frac1=0.00, kdom=2)
+a=0.26137 m=1: +1.24e-13-5.84082i (frac1=0.20, kdom=2); -7.29e-14-4.66845i (frac1=0.46, kdom=2); +6.77e-15+3.01379i (frac1=0.97, kdom=1); +5.44e-14+7.52221i (frac1=0.00, kdom=2)
+a=0.26137 m=2: -1.05e-13-4.94839i (frac1=0.38, kdom=2); +7.01e-14-4.82085i (frac1=0.40, kdom=2); -1.31e-14+7.55872i (frac1=0.00, kdom=2)
+a=0.26140 m=1: +9.20e-14-5.82780i (frac1=0.20, kdom=2); -9.53e-14-4.67701i (frac1=0.45, kdom=2); -3.54e-14+3.01381i (frac1=0.97, kdom=1); +2.96e-14+7.51781i (frac1=0.00, kdom=2)
+a=0.26140 m=2: +1.07e-01-4.88242i (frac1=0.39, kdom=2); -1.07e-01-4.88242i (frac1=0.39, kdom=2); +4.78e-14+7.55441i (frac1=0.00, kdom=2)
+a=0.26200 m=1: +1.49e-13-5.49283i (frac1=0.26, kdom=2); -2.08e-13-4.92269i (frac1=0.38, kdom=2); -6.01e-15+3.01408i (frac1=0.97, kdom=1); -3.53e-14+7.42969i (frac1=0.00, kdom=2)
+a=0.26200 m=2: -5.65e-01-4.83848i (frac1=0.39, kdom=2); +5.65e-01-4.83848i (frac1=0.39, kdom=2); -2.92e-14+7.46816i (frac1=0.00, kdom=2)
+Continuation of the steady branch beyond a = 0.278 (M = 257):
+  a=0.27800 res=1.7e-12 smin=3.21e-02 gap/a=0.5898 Omega=3.02847474
+  a=0.27850 res=2.0e-12 smin=3.16e-02 gap/a=0.5667 Omega=3.02965076 min(rho)/a=0.7397 max(rho)/a=1.2972
+  a=0.27900 res=1.9e-12 smin=3.09e-02 gap/a=0.5401 Omega=3.03105782 min(rho)/a=0.7331 max(rho)/a=1.3082
+  a=0.27950 res=1.7e-12 smin=2.94e-02 gap/a=0.5075 Omega=3.03286780 min(rho)/a=0.7248 max(rho)/a=1.3224
+  a=0.28000 res=1.7e-12 smin=2.44e-02 gap/a=0.4590 Omega=3.03573173 min(rho)/a=0.7122 max(rho)/a=1.3450
+  a=0.28013 res=1.8e-12 smin=1.92e-02 gap/a=0.4371 Omega=3.03707562 min(rho)/a=0.7065 max(rho)/a=1.3557
+  a=0.28016 res=1.7e-12 smin=1.61e-02 gap/a=0.4285 Omega=3.03759801 min(rho)/a=0.7043 max(rho)/a=1.3599
+  a=0.28019 res=1.8e-12 smin=8.76e-03 gap/a=0.4147 Omega=3.03845721 min(rho)/a=0.7008 max(rho)/a=1.3668
+  Newton fails beyond a=0.280187 (res=6.4e-05)

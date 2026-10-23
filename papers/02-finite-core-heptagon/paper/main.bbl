@@ -1,0 +1,120 @@
+\begin{thebibliography}{10}
+
+\bibitem{Aref2003}
+H.~Aref, P.~K. Newton, M.~A. Stremler, T.~Tokieda, and D.~L. Vainchtein.
+\newblock Vortex crystals.
+\newblock {\em Adv. Appl. Mech.}, 39:1--79, 2003.
+
+\bibitem{CabralSchmidt1999}
+H.~E. Cabral and D.~S. Schmidt.
+\newblock Stability of relative equilibria in the problem of {$N+1$} vortices.
+\newblock {\em SIAM J. Math. Anal.}, 31:231--250, 1999.
+
+\bibitem{Dhanak1992}
+M.~R. Dhanak.
+\newblock Stability of a regular polygon of finite vortices.
+\newblock {\em J. Fluid Mech.}, 234:297--316, 1992.
+
+\bibitem{Dritschel1985}
+D.~G. Dritschel.
+\newblock The stability and energetics of corotating uniform vortices.
+\newblock {\em J. Fluid Mech.}, 157:95--134, 1985.
+
+\bibitem{Garcia2021}
+C.~Garc{\'\i}a.
+\newblock Vortex patches choreography for active scalar equations.
+\newblock {\em J. Nonlinear Sci.}, 31, 2021.
+\newblock doi:10.1007/s00332-021-09729-x; arXiv:2010.07361.
+
+\bibitem{HassainiaWheeler2022}
+Z.~Hassainia and M.~H. Wheeler.
+\newblock Multipole vortex patch equilibria for active scalar equations.
+\newblock {\em SIAM J. Math. Anal.}, 54:6054--6095, 2022.
+
+\bibitem{Havelock1931}
+T.~H. Havelock.
+\newblock The stability of motion of rectilinear vortices in ring formation.
+\newblock {\em Phil. Mag. (7)}, 11:617--633, 1931.
+
+\bibitem{HmidiMateu2017}
+T.~Hmidi and J.~Mateu.
+\newblock Existence of corotating and counter-rotating vortex pairs for active
+  scalar equations.
+\newblock {\em Comm. Math. Phys.}, 350:699--747, 2017.
+
+\bibitem{Kida1981}
+S.~Kida.
+\newblock Motion of an elliptic vortex in a uniform shear flow.
+\newblock {\em J. Phys. Soc. Japan}, 50:3517--3520, 1981.
+
+\bibitem{Kress2014}
+R.~Kress.
+\newblock {\em Linear Integral Equations}.
+\newblock Springer, 3rd edition, 2014.
+
+\bibitem{KurakinYudovich2002}
+L.~G. Kurakin and V.~I. Yudovich.
+\newblock The stability of stationary rotation of a regular vortex polygon.
+\newblock {\em Chaos}, 12:574--595, 2002.
+
+\bibitem{LlewellynSmithCrowdy2012}
+S.~G. {Llewellyn Smith} and D.~G. Crowdy.
+\newblock Structure and stability of hollow vortex equilibria.
+\newblock {\em J. Fluid Mech.}, 691:178--200, 2012.
+\newblock doi:10.1017/jfm.2011.467.
+
+\bibitem{Love1893}
+A.~E.~H. Love.
+\newblock On the stability of certain vortex motions.
+\newblock {\em Proc. London Math. Soc.}, 25:18--42, 1893.
+
+\bibitem{MZS1986}
+M.~V. Melander, N.~J. Zabusky, and A.~S. Styczek.
+\newblock A moment model for vortex interactions of the two-dimensional {E}uler
+  equations. {P}art 1. {C}omputational validation of a {H}amiltonian elliptical
+  representation.
+\newblock {\em J. Fluid Mech.}, 167:95--115, 1986.
+
+\bibitem{MooreSaffman1971}
+D.~W. Moore and P.~G. Saffman.
+\newblock Structure of a line vortex in an imposed strain.
+\newblock In {\em Aircraft Wake Turbulence and its Detection}, pages 339--354.
+  Plenum, New York, 1971.
+
+\bibitem{PolvaniDritschel1993}
+L.~M. Polvani and D.~G. Dritschel.
+\newblock Wave and vortex dynamics on the surface of a sphere.
+\newblock {\em J. Fluid Mech.}, 255:35--64, 1993.
+
+\bibitem{Saffman1992}
+P.~G. Saffman.
+\newblock {\em Vortex Dynamics}.
+\newblock Cambridge University Press, 1992.
+
+\bibitem{SquireTrapp1998}
+W.~Squire and G.~Trapp.
+\newblock Using complex variables to estimate derivatives of real functions.
+\newblock {\em SIAM Rev.}, 40:110--112, 1998.
+
+\bibitem{Mathlib}
+{The mathlib Community}.
+\newblock The {L}ean mathematical library, 2026.
+\newblock Lean~4, Mathlib v4.34.1.
+
+\bibitem{Thomson1883}
+J.~J. Thomson.
+\newblock {\em A Treatise on the Motion of Vortex Rings}.
+\newblock Macmillan, London, 1883.
+
+\bibitem{Wan1986}
+Y.~H. Wan.
+\newblock The stability of rotating vortex patches.
+\newblock {\em Comm. Math. Phys.}, 107:1--20, 1986.
+
+\bibitem{YangKubota1994}
+J.~Yang and T.~Kubota.
+\newblock The steady motion of a symmetric, finite core size, counterrotating
+  vortex pair.
+\newblock {\em SIAM J. Appl. Math.}, 54:14--25, 1994.
+
+\end{thebibliography}

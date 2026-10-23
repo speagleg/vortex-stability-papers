@@ -1,0 +1,13 @@
+S^2, G kernel: c(y) = normalisation factor, A_N(y) (normalisation of Section 6), Theta_N, D_N
+ N=2: c=1;  A_N(y) = y**2/16;  Theta = 0;  D_N = n/a
+ N=3: c=1;  A_N(y) = 2*y/9;  Theta = 0;  D_N = n/a
+ N=4: c=1;  A_N(y) = -15*y**2/16 + 55*y/16 - 9/8;  Theta = 1/3;  D_N = 1/8
+ N=5: c=1;  A_N(y) = -3*y**2 + 27*y/2 - 11/2;  Theta = 1/2;  D_N = -1
+ N=6: c=1;  A_N(y) = -115*y**2/16 + 1547*y/36 - 230/9;  Theta = 4/5;  D_N = -380/9
+ N=7: c=1;  A_N(y) = -27*y**2/2 + 98*y - 141/2;  Theta = 1;  D_N = n/a
+H^2, G kernel (with background)
+ N=8: c=1;  A_N(y) = -371*y**2/16 + 3319*y/16 - 1519/8;  Theta = 9/7;  D_N = -539/4
+ N=9: c=1;  A_N(y) = -36*y**2 + 3386*y/9 - 402;  Theta = 3/2;  D_N = -244/3
+ N=10: c=1;  A_N(y) = -855*y**2/16 + 1315*y/2 - 840;  Theta = 16/9;  D_N = -2880/49
+ N=11: c=1;  A_N(y) = -75*y**2 + 1050*y - 1525;  Theta = 2;  D_N = -55
+ N=12: c=1;  A_N(y) = -1639*y**2/16 + 236255*y/144 - 197725/72;  Theta = 25/11;  D_N = -179575/3528

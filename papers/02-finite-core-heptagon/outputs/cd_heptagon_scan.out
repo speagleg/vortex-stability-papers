@@ -1,0 +1,54 @@
+Planar heptagon of uniform patches, ring radius 1, normalised units (Gamma = 1).
+a=0.02000 M= 65 Omega=3.0000001607 res=2.2e-12 smin=1.9e-04 gap/a=41.3880 maxRe=+1.673e-10 (m=1) slow3=(+3.0e-11+0.00366452i, -3.8e-11-0.00366966i) jordan=6.3e-06
+a=0.04000 M= 65 Omega=3.0000026035 res=9.2e-13 smin=7.4e-04 gap/a=19.6921 maxRe=+3.865e-11 (m=6) slow3=(+1.0e-11+0.01463963i, -6.0e-12-0.01472272i) jordan=1.4e-06
+a=0.06000 M= 65 Omega=3.0000134637 res=6.8e-13 smin=1.7e-03 gap/a=12.4578 maxRe=+2.114e-11 (m=0) slow3=(+2.5e-12+0.03287003i, -1.7e-12-0.03329844i) jordan=3.3e-07
+a=0.08000 M= 65 Omega=3.0000438548 res=4.6e-13 smin=3.0e-03 gap/a=8.8376 maxRe=+1.102e-11 (m=1) slow3=(+2.4e-13+0.05826422i, -1.4e-12-0.05965442i) jordan=9.0e-07
+a=0.10000 M= 65 Omega=3.0001113805 res=3.4e-13 smin=4.6e-03 gap/a=6.6618 maxRe=+6.753e-12 (m=3) slow3=(+1.7e-13+0.09069698i, -2.7e-13-0.09421367i) jordan=1.2e-06
+   resolution check: a=0.10000 M=129 Omega=3.0001113805 res=1.4e-12 smin=4.6e-03 gap/a=6.6612 maxRe=+8.188e-12 (m=2) slow3=(+7.0e-13+0.09069698i, -5.1e-13-0.09421367i) jordan=1.4e-06
+a=0.12000 M= 65 Omega=3.0002426862 res=3.2e-13 smin=6.7e-03 gap/a=5.2069 maxRe=+3.237e-12 (m=5) slow3=(+1.2e-13+0.13001657i, -1.1e-13-0.13765255i) jordan=7.5e-07
+a=0.14000 M= 65 Omega=3.0004777082 res=2.9e-13 smin=9.1e-03 gap/a=4.1625 maxRe=+3.446e-12 (m=4) slow3=(+1.9e-13+0.17606353i, -3.8e-14-0.19106696i) jordan=6.0e-07
+a=0.16000 M= 65 Omega=3.0008769789 res=2.3e-13 smin=1.2e-02 gap/a=3.3724 maxRe=+3.809e-12 (m=4) slow3=(+9.1e-14+0.22871721i, -5.5e-14-0.25630166i) jordan=4.5e-07
+a=0.18000 M= 65 Omega=3.0015349711 res=1.5e-13 smin=1.5e-02 gap/a=2.7476 maxRe=+1.933e-12 (m=6) slow3=(+2.6e-15+0.28801295i, -5.1e-14-0.33665672i) jordan=5.8e-07
+a=0.20000 M= 65 Omega=3.0026067851 res=1.6e-13 smin=1.8e-02 gap/a=2.2360 maxRe=+1.529e-12 (m=0) slow3=(+2.1e-14+0.35445715i, -4.7e-14-0.43858477i) jordan=3.2e-07
+   resolution check: a=0.20000 M=129 Omega=3.0026067851 res=6.0e-13 smin=1.8e-02 gap/a=2.2354 maxRe=+1.512e-12 (m=5) slow3=(+6.1e-14+0.35445715i, -4.3e-14-0.43858477i) jordan=6.4e-07
+a=0.21000 M=129 Omega=3.0033763823 res=6.3e-13 smin=2.0e-02 gap/a=2.0106 maxRe=+1.749e-12 (m=6) slow3=(-4.5e-14+0.39084967i, -1.3e-13-0.50154348i) jordan=5.6e-07
+   resolution check: a=0.21000 M=129 Omega=3.0033763823 res=6.0e-13 smin=2.0e-02 gap/a=2.0106 maxRe=+1.752e-12 (m=4) slow3=(-4.3e-14+0.39084967i, -1.5e-14-0.50154348i) jordan=9.1e-07
+a=0.22000 M=129 Omega=3.0043689178 res=5.5e-13 smin=2.2e-02 gap/a=1.8014 maxRe=+1.592e-12 (m=6) slow3=(+4.4e-14+0.42998236i, -6.9e-14-0.57650279i) jordan=3.9e-07
+   resolution check: a=0.22000 M=129 Omega=3.0043689178 res=6.1e-13 smin=2.2e-02 gap/a=1.8014 maxRe=+1.207e-12 (m=6) slow3=(-2.9e-15+0.42998236i, -1.2e-13-0.57650279i) jordan=7.6e-07
+a=0.23000 M=129 Omega=3.0056643555 res=5.2e-13 smin=2.4e-02 gap/a=1.6043 maxRe=+1.149e-12 (m=1) slow3=(+7.6e-14+0.47286028i, +5.7e-14-0.66920458i) jordan=8.0e-07
+a=0.24000 M=129 Omega=3.0073880606 res=5.7e-13 smin=2.6e-02 gap/a=1.4151 maxRe=+1.232e-12 (m=1) slow3=(-1.7e-14+0.52148501i, -3.6e-14-0.79058264i) jordan=4.1e-07
+a=0.25000 M=129 Omega=3.0097552233 res=4.5e-13 smin=2.9e-02 gap/a=1.2284 maxRe=+1.338e-12 (m=0) slow3=(-1.8e-14+0.58021180i, -6.2e-14-0.96472224i) jordan=7.2e-07
+   resolution check: a=0.25000 M=193 Omega=3.0097552233 res=1.3e-12 smin=2.9e-02 gap/a=1.2285 maxRe=+3.465e-12 (m=6) slow3=(-5.8e-14+0.58021180i, -6.5e-14-0.96472224i) jordan=5.3e-07
+a=0.25500 M=129 Omega=3.0112978678 res=4.7e-13 smin=3.0e-02 gap/a=1.1344 maxRe=+7.413e-13 (m=6) slow3=(+7.3e-15+0.61627055i, -1.2e-13-1.08884278i) jordan=5.8e-07
+a=0.25800 M=193 Omega=3.0123844459 res=1.0e-12 smin=3.0e-02 gap/a=1.0773 maxRe=+2.338e-12 (m=6) slow3=(+7.2e-14+0.64137831i, -3.6e-14-1.18402879i) jordan=2.3e-07
+a=0.26000 M=193 Omega=3.0131926166 res=1.1e-12 smin=3.1e-02 gap/a=1.0383 maxRe=+2.979e-12 (m=3) slow3=(-3.4e-14+0.66010498i, -5.5e-14-1.26024673i) jordan=5.5e-07
+   resolution check: a=0.26000 M=257 Omega=3.0131926166 res=1.9e-12 smin=3.1e-02 gap/a=1.0385 maxRe=+4.730e-12 (m=1) slow3=(-4.0e-14+0.66010498i, +3.8e-14-1.26024673i) jordan=5.8e-07
+a=0.26050 M=193 Omega=3.0134066464 res=1.2e-12 smin=3.1e-02 gap/a=1.0284 maxRe=+2.435e-12 (m=0) slow3=(-1.4e-14+0.66508763i, -1.2e-13-1.28134240i) jordan=4.8e-07
+a=0.26100 M=193 Omega=3.0136258644 res=1.0e-12 smin=3.1e-02 gap/a=1.0185 maxRe=+2.702e-12 (m=5) slow3=(-1.1e-14+0.67020487i, +7.2e-14-1.30338555i) jordan=6.4e-07
+a=0.26150 M=193 Omega=3.0138504901 res=1.2e-12 smin=3.1e-02 gap/a=1.0086 maxRe=+2.507e-01 (m=2) slow3=(-2.7e-14+0.67546483i, -1.2e-14-1.32645563i) jordan=4.3e-07
+a=0.26200 M=193 Omega=3.0140807580 res=1.2e-12 smin=3.1e-02 gap/a=0.9986 maxRe=+5.654e-01 (m=5) slow3=(-8.1e-15+0.68087634i, +3.4e-14-1.35064215i) jordan=6.1e-07
+   resolution check: a=0.26200 M=257 Omega=3.0140807580 res=1.8e-12 smin=3.1e-02 gap/a=0.9988 maxRe=+5.654e-01 (m=5) slow3=(-1.3e-13+0.68087634i, -1.4e-13-1.35064215i) jordan=6.4e-07
+a=0.26500 M=193 Omega=3.0155962724 res=1.2e-12 smin=3.2e-02 gap/a=0.9373 maxRe=+1.361e+00 (m=5) slow3=(-6.9e-14+0.71713043i, -9.2e-14-1.52605191i) jordan=3.7e-07
+a=0.27000 M=193 Omega=3.0188148912 res=1.1e-12 smin=3.2e-02 gap/a=0.8275 maxRe=+2.113e+00 (m=2) slow3=(+3.2e-14+0.79979982i, +1.5e-13-2.07052843i) jordan=2.2e-07
+   resolution check: a=0.27000 M=257 Omega=3.0188148912 res=1.8e-12 smin=3.2e-02 gap/a=0.8272 maxRe=+2.113e+00 (m=5) slow3=(+1.4e-14+0.79979982i, +1.5e-13-2.07052843i) jordan=3.2e-07
+a=0.27200 M=193 Omega=3.0204693437 res=1.1e-12 smin=3.3e-02 gap/a=0.7792 maxRe=+2.364e+00 (m=2) slow3=(+4.8e-14+0.84663350i, -2.7e-13-2.69256601i) jordan=3.3e-07
+a=0.27400 M=193 Omega=3.0224592251 res=1.1e-12 smin=3.3e-02 gap/a=0.7260 maxRe=+2.609e+00 (m=5) slow3=(+2.6e-14+0.90827840i, -1.1e+00-2.98252129i) jordan=7.1e-07
+a=0.27600 M=193 Omega=3.0249721295 res=1.0e-12 smin=3.3e-02 gap/a=0.6651 maxRe=+2.866e+00 (m=2) slow3=(-2.5e-14+0.99694415i, -1.7e+00-2.78250834i) jordan=2.0e-07
+a=0.27700 M=193 Omega=3.0265451021 res=1.0e-12 smin=3.3e-02 gap/a=0.6300 maxRe=+3.007e+00 (m=5) slow3=(-2.1e-14+1.06051619i, -2.0e+00-2.66822524i) jordan=1.9e-07
+a=0.27800 M=193 Omega=3.0284747439 res=9.5e-13 smin=3.2e-02 gap/a=0.5899 maxRe=+3.166e+00 (m=5) slow3=(-1.5e-14+1.15002845i, -2.2e+00-2.53697527i) jordan=5.6e-07
+onset of instability (M=193): a in [0.261377, 0.261379]  (core radius over side [0.30121, 0.30121])
+   a=0.26158: block m=2: eigenvalues with Re > 1e-07: +3.2199e-01-4.869299i
+   a=0.26158: block m=5: eigenvalues with Re > 1e-07: +3.2199e-01+4.869299i
+   a=0.26118 (stable side): closest pair on the imaginary axis: block m=2, Im = -5.220469, -4.576990 (separation 6.43e-01)
+   a=0.27000: block m=1: eigenvalues with Re > 1e-07: +1.7816e+00-4.578798i
+   a=0.27000: block m=2: eigenvalues with Re > 1e-07: +2.1133e+00-4.226270i
+   a=0.27000: block m=5: eigenvalues with Re > 1e-07: +2.1133e+00+4.226270i
+   a=0.27000: block m=6: eigenvalues with Re > 1e-07: +1.7816e+00+4.578798i
+onset of instability (M=257): a in [0.261377, 0.261379]  (core radius over side [0.30121, 0.30121])
+   a=0.26158: block m=2: eigenvalues with Re > 1e-07: +3.2199e-01-4.869299i
+   a=0.26158: block m=5: eigenvalues with Re > 1e-07: +3.2199e-01+4.869299i
+   a=0.26118 (stable side): closest pair on the imaginary axis: block m=2, Im = -5.220469, -4.576990 (separation 6.43e-01)
+   a=0.27000: block m=1: eigenvalues with Re > 1e-07: +1.7816e+00-4.578798i
+   a=0.27000: block m=2: eigenvalues with Re > 1e-07: +2.1133e+00-4.226270i
+   a=0.27000: block m=5: eigenvalues with Re > 1e-07: +2.1133e+00+4.226270i
+   a=0.27000: block m=6: eigenvalues with Re > 1e-07: +1.7816e+00+4.578798i

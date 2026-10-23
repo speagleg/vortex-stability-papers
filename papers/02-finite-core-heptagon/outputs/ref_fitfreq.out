@@ -1,0 +1,3 @@
+# referee fitfreq.py (unmodified) run on the recorded outputs ref_lagr020.out / ref_lagr015.out (referee file names lagr020.txt, lagr015.txt)
+lagr020.txt T= 160.0 max|dr3| first/last third 0.0005042646746501286 0.0005009923411680063 peaks [np.float64(-0.439), np.float64(0.355)] eig (0.3544572, -0.4385848)
+lagr015.txt T= 160.0 max|dr3| first/last third 0.0005002278954596594 0.0004935404795961523 peaks [np.float64(-0.2225), np.float64(0.202)] eig (0.2015682, -0.2220472)

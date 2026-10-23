@@ -1,0 +1,5 @@
+# python code/heff_check.py 7  (independent referee code, unmodified): direct 40-digit finite differences of H_eff, no lattice sums
+Omega0 -3.0 Omega1 -1.0
+m 1 a_perp: 3.0 +eps 26.0  a_par: 3.0 +eps 26.0  offdiag eps: (1.908095939e-22 + 25.0j)
+m 2 a_perp: 1.0 +eps 26.0  a_par: 5.0 +eps 50.0  offdiag eps: (-9.774204554e-22 + 35.0j)
+m 3 a_perp: 1.682351019e-19 +eps 14.0  a_par: 6.0 +eps 56.0  offdiag eps: (1.647568638e-21 + 16.0j)
