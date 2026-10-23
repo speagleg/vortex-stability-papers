@@ -1,0 +1,33 @@
+F(pi) of G_1 hypercycle rows by four independent evaluations.
+(1) F(pi) at (kappa, ell_u); value from the lattice sum (L), and |X - L| for X = S, T, M:
+  kappa=      0.72 ell_u=  3.3: F(pi) = -0.00000875639565835595750293462143779
+      |S-L| 8.2e-53  |T-L| 4.3e-53  |M-L| 1.2e-52   F0 = 0.00742272224337  R1 = 9.0e-5  R2 = 0.00734
+  kappa=      0.75 ell_u=  2.2: F(pi) = 0.00168080408155896718594537974005
+      |S-L| 2.4e-52  |T-L| 9.3e-53  |M-L| 2.1e-51   F0 = 0.00281652755616  R1 = 1.3e-6  R2 = 0.00113
+  kappa=       0.8 ell_u= 1.35: F(pi) = -0.000486759933243431690431989254827
+      |S-L| 3.1e-52  |T-L| 8.8e-52  |M-L| 2.4e-51   F0 = -0.000467574702204  R1 = 1.75e-10  R2 = 1.92e-5
+  kappa=       0.9 ell_u= 0.62: F(pi) = -0.00865113296418659331562772201357
+      |S-L| 1.5e-50  |T-L| 1.3e-50  |M-L| 1.6e-50   F0 = -0.00865113295702  R1 = 8.23e-24  R2 = 7.17e-12
+  kappa=     0.999 ell_u= 0.04: F(pi) = 0.0654482990711095070842179334773
+      |S-L| 2.6e-46  |T-L| 2.6e-46  |M-L| 2.6e-46   F0 = 0.0654482990711  R1 = 2.07e-422  R2 = 6.72e-211
+  kappa=0.70710678 ell_u=  2.0: F(pi) = -0.0301461367578175991300878126383
+      |S-L| 4.6e-52  |T-L| 1.6e-52  |M-L| 8.4e-53   F0 = -0.0292591246301  R1 = 5.58e-7  R2 = 0.000886
+  kappa=       0.5 ell_u=  0.1: F(pi) = -180.395584109839929476661510623
+      |S-L| 0.0  |T-L| 6.2e-48  |M-L| 6.2e-48   F0 = -180.39558411  R1 = 1.36e-113  R2 = 5.23e-55
+  kappa=       0.3 ell_u=    5: F(pi) = -0.0103002157040635293901275938858
+      |S-L| 2.1e-53  |T-L| 1.3e-53  |M-L| 1.0e-52   F0 = 0.0502145337875  R1 = 0.00218  R2 = 0.0583
+  kappa=       0.0 ell_u=    1: F(pi) = -2.21842223347986149076524592933
+      |S-L| 1.1e-50  |T-L| 1.9e-51  |M-L| 1.1e-50   F0 = -2.21791164047  R1 = -5.65e-16  R2 = 0.000511
+  kappa=      -0.6 ell_u=  0.8: F(pi) = -1.63198948373600026420325906645
+      |S-L| 1.6e-50  |T-L| 2.6e-51  |M-L| 5.3e-51   F0 = -1.62520004607  R1 = -1.78e-6  R2 = 0.00679
+  max discrepancy over all points and methods: 2.6e-46  (30-digit agreement: True)
+(2) dual corrections positive for kappa >= 1/sqrt2 (alpha <= pi/4), grid alpha = (pi/4) i/40, ell_u in {0.02, 0.05, 0.1, 0.3, 1, 3, 10}:
+  R1 > 0 and R2 > 0 at all 280 points: True  (termwise: sin2a sinh(4 pi n a/l) >= 4 pi n s^2/l iff tan a <= 2a for a <= pi/4 once sinh x >= x)
+(3) alpha -> 0 at fixed arc spacing ell (ell_u = ell sin alpha):
+  lim F0 = (-ell**2 + 4*pi*ell*coth(2*pi/ell) - pi**2*coth(pi/ell)**2)/(4*ell**2) ;  minus horocycle function at eta = pi/ell: 0
+  numeric, ell = 0.9: horocycle function 0.18314872421937032038
+    alpha =    0.2: F(pi) = -0.30176403949899006096,  (F(pi) - limit)/alpha = -2.424563819
+    alpha =   0.05: F(pi) = 0.069095989280674921728,  (F(pi) - limit)/alpha = -2.281054699
+    alpha =   0.01: F(pi) = 0.16080440030679937746,  (F(pi) - limit)/alpha = -2.234432391
+    alpha =  0.001: F(pi) = 0.18092527098304739294,  (F(pi) - limit)/alpha = -2.223453236
+    alpha = 0.0001: F(pi) = 0.18292648967700736308,  (F(pi) - limit)/alpha = -2.222345424

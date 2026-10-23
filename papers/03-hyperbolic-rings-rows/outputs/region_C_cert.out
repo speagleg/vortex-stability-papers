@@ -1,0 +1,4 @@
+C1 (eta >= 7, alpha <= pi/4): 7 > 2 pi and (2 sqrt2/pi)/4 >= 1/(2 pi): True
+C2 (eta <= 2.5, l < 0.25): min of h/eta^2 - [(2t^2/3)(1/2+eta) + 2t/pi] >= 0.0222 (117 intervals); R/eta^2 <= 3.04e-32; margin positive: True
+C3 (2.5 <= eta <= 7, l < 0.25, alpha <= 0.5570): 113 boxes: 2 with F > 0, 26 with F < 0, 29 with dF/deta < 0;  R <= 1.65e-08, |dR/deta| <= 2.31e-04
+all regions decided

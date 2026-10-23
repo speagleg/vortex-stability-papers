@@ -1,0 +1,72 @@
+hypercycle-row thresholds ell^*(kappa) of the G_1 model and related numbers.
+(1)+(2) thresholds (ell_u^*, arc ell^*), archive value, F0-root error:
+  kappa=  0.708: sign changes 1;  ell_u* = 5.9803457817410406176;  ell* = 8.4681966861964915398  
+      F0 roots 1; ell*_F0 = 3.96970953124396, |ell*_F0 - ell*| = 4.5
+  kappa=   0.71: sign changes 1;  ell_u* = 4.8038162931274367915;  ell* = 6.8216484839183888481  
+      F0 roots 1; ell*_F0 = 3.94476265644803, |ell*_F0 - ell*| = 2.88
+  kappa=   0.72: sign changes 1;  ell_u* = 3.3057525745389545719;  ell* = 4.7635102681633953832  archive 4.7635102682, diff -3.7e-11
+      F0 roots 1; ell*_F0 = 3.79592725507134, |ell*_F0 - ell*| = 0.968
+  kappa=   0.75: sign changes 1;  ell_u* = 2.1075586974781898897;  ell* = 3.1863292497134295746  archive 3.1863292497, diff 1.3e-11
+      F0 roots 1; ell*_F0 = 3.1334745246072, |ell*_F0 - ell*| = 0.0529
+  kappa=    0.8: sign changes 1;  ell_u* = 1.3532859751982896154;  ell* = 2.2554766253304826924  archive 2.2554766253, diff 3.0e-11
+      F0 roots 1; ell*_F0 = 2.25525402499702, |ell*_F0 - ell*| = 0.000223
+  kappa=   0.85: sign changes 1;  ell_u* = 0.93228475895654166356;  ell* = 1.769771066563585444  
+      F0 roots 1; ell*_F0 = 1.76977072540102, |ell*_F0 - ell*| = 3.41e-7
+  kappa=    0.9: sign changes 1;  ell_u* = 0.62619274495275298139;  ell* = 1.4365846812775733744  archive 1.4365846813, diff -2.2e-11
+      F0 roots 1; ell*_F0 = 1.43658468126206, |ell*_F0 - ell*| = 1.55e-11
+  kappa=   0.95: sign changes 1;  ell_u* = 0.36516755940002141712;  ell* = 1.1694721423246984264  archive 1.1694721423, diff 2.5e-11
+      F0 roots 1; ell*_F0 = 1.1694721423247, |ell*_F0 - ell*| = 4.58e-21
+  kappa=   0.99: sign changes 1;  ell_u* = 0.13454512555123955131;  ell* = 0.9537651072876053719  archive 0.9537651073, diff -1.2e-11
+      F0 roots 1; ell*_F0 = 0.953765107287605, |ell*_F0 - ell*| = 0.0
+  kappa=  0.999: sign changes 1;  ell_u* = 0.039079181316918815599;  ell* = 0.87405560051789992558  archive 0.8740556005, diff 1.8e-11
+      F0 roots 1; ell*_F0 = 0.8740556005179, |ell*_F0 - ell*| = 0.0
+  kappa= 0.9999: sign changes 1;  ell_u* = 0.01206342404039248314;  ell* = 0.85303422045112559858  archive 0.8530342205, diff -4.9e-11
+      F0 roots 1; ell*_F0 = 0.853034220451126, |ell*_F0 - ell*| = 0.0
+  ell_u^* strictly decreasing in kappa on this list: True
+(3) bound ell_A and ratio ell_A/ell^*:
+  kappa=  0.7072: ell_A = 12.6361389727, F(pi) > 0 on ell_u in [1, 4] x ell_A sin a: True; ell_A/ell* = 1.0841119;  (ell_A - ell*) sqrt(1-k^2)/ln2 = 0.99999967
+  kappa=    0.72: ell_A = 5.75679423164, F(pi) > 0 on ell_u in [1, 4] x ell_A sin a: True; ell_A/ell* = 1.2085193;  (ell_A - ell*) sqrt(1-k^2)/ln2 = 0.99446889
+  kappa=    0.75: ell_A = 4.18581953902, F(pi) > 0 on ell_u in [1, 4] x ell_A sin a: True; ell_A/ell* = 1.3136808;  (ell_A - ell*) sqrt(1-k^2)/ln2 = 0.95376668
+  kappa=     0.8: ell_A = 3.24318358176, F(pi) > 0 on ell_u in [1, 4] x ell_A sin a: True; ell_A/ell* = 1.437915;  (ell_A - ell*) sqrt(1-k^2)/ln2 = 0.85497596
+  kappa=     0.9: ell_A = 2.42545452249, F(pi) > 0 on ell_u in [1, 4] x ell_A sin a: True; ell_A/ell* = 1.6883478;  (ell_A - ell*) sqrt(1-k^2)/ln2 = 0.62185692
+  kappa=    0.99: ell_A = 2.03404380352, F(pi) > 0 on ell_u in [1, 4] x ell_A sin a: True; ell_A/ell* = 2.1326465;  (ell_A - ell*) sqrt(1-k^2)/ln2 = 0.21985527
+  kappa=   0.999: ell_A = 2.0033402834, F(pi) > 0 on ell_u in [1, 4] x ell_A sin a: True; ell_A/ell* = 2.2920055;  (ell_A - ell*) sqrt(1-k^2)/ln2 = 0.072842421
+  kappa= 0.99999: ell_A = 2.00003333403, F(pi) > 0 on ell_u in [1, 4] x ell_A sin a: True; ell_A/ell* = 2.3619978;  (ell_A - ell*) sqrt(1-k^2)/ln2 = 0.007440851
+  ratio ell_A/ell^* on kappa = 1/sqrt2 + (1 - 1/sqrt2) i/60, i = 1..59 (min, max, monotone):
+    min 1.1618243 (i=1), max 2.2014591 (i=59), increasing: True;  limit kappa->1: 2/ell_* = 2.3699251
+(4) near kappa_c: ell^* vs ell_as = -ln(2k^2-1)/sqrt(1-k^2):
+  kappa=0.708: ell* = 8.468196686, ell_as = 8.468169812, rel. error 3.17e-6
+  kappa=0.71: ell* = 6.821648484, ell_as = 6.821371335, rel. error 4.06e-5
+  kappa=0.72: ell* = 4.763510268, ell_as = 4.758473854, rel. error 0.00106
+  kappa=0.75: ell* = 3.18632925, ell_as = 3.143820106, rel. error 0.0133
+  kappa=0.8: ell* = 2.255476625, ell_as = 2.12160946, rel. error 0.0594
+(5) epsilon series of F(pi)/(2 s^2) in e = exp(-ell_u):
+  e^1: 2*K - 1
+  e^2: 8*K**2 - 3
+  e^3: 32*K**3 - 32*K**2 + 8*K - 4
+  e^4: 128*K**4 - 192*K**3 + 104*K**2 - 24*K - 3
+  e^1 minus archive coefficient: 0
+  e^2 minus archive coefficient: 0
+  e^3 minus archive coefficient: 0
+  numeric check kappa=0.8, ell_u=6: F/(2s^2) = 0.000695696346186902, 4-term series = 0.000695696346611463, diff/e^5 = -4.53706
+(6) horocycle limit:
+  eta_inf = 3.7226696224745093436136630926733;  ell_* = pi/eta = 0.84390853129253347296072594243579;  diff vs 0.8439085312925335: -2.7e-17
+  horocycle function eta coth 2eta - 1/4 - eta^2 coth^2(eta)/4 at eta_inf: -5.35e-51
+  kappa=       0.9999: alpha = 0.0141423, ell* = 0.8530342204511256, (ell* - ell_*)/alpha = 0.64527829
+  kappa=     0.999999: alpha = 0.00141421, ell* = 0.8448047489277674, (ell* - ell_*)/alpha = 0.63372151
+  kappa=   0.99999999: alpha = 0.000141421, ell* = 0.8439979914343611, (ell* - ell_*)/alpha = 0.63257873
+  kappa= 0.9999999999: alpha = 1.41421e-5, ell* = 0.8439174756923597, (ell* - ell_*)/alpha = 0.63246458
+(7) Bolza collar and necklaces (cylinder model):
+  sinh^2(L_sys/2) = 2 + 2*sqrt(2) ;  tanh^2 h_col = 1/(1 + sinh^2(L_sys/2)) = 3 - 2*sqrt(2) ; (sqrt2-1)^2 = 3 - 2*sqrt(2)
+  L_sys = 3.057141838962, h_col = 0.440686793509772, tanh h_col = 0.414213562373095, sqrt2-1 = 0.414213562373095
+  N= 2: sign changes in h on (0.02, 5]: 1;  h* = 1.057352482;  h_A = 1.22423;  row (q = pi) boundary h = 1.057352482;  h* < h_col: False
+  N= 3: sign changes in h on (0.02, 5]: 1;  h* = 1.149416639;  h_A = 1.50013;  row (q = pi) boundary h = 1.214378679;  h* < h_col: False
+  N= 4: sign changes in h on (0.02, 5]: 1;  h* = 1.358266901;  h_A = 1.73388;  row (q = pi) boundary h = 1.358266901;  h* < h_col: False
+  N= 5: sign changes in h on (0.02, 5]: 1;  h* = 1.460776589;  h_A = 1.93004;  row (q = pi) boundary h = 1.486596364;  h* < h_col: False
+  N= 6: sign changes in h on (0.02, 5]: 1;  h* = 1.601355525;  h_A = 2.09708;  row (q = pi) boundary h = 1.601355525;  h* < h_col: False
+  N= 7: sign changes in h on (0.02, 5]: 1;  h* = 1.690149783;  h_A = 2.2418;  row (q = pi) boundary h = 1.704816146;  h* < h_col: False
+  N= 8: sign changes in h on (0.02, 5]: 1;  h* = 1.798880833;  h_A = 2.36911;  row (q = pi) boundary h = 1.798880833;  h* < h_col: False
+  N= 9: sign changes in h on (0.02, 5]: 1;  h* = 1.875512724;  h_A = 2.48259;  row (q = pi) boundary h = 1.885058987;  h* < h_col: False
+  N=10: sign changes in h on (0.02, 5]: 1;  h* = 1.964542163;  h_A = 2.58485;  row (q = pi) boundary h = 1.964542163;  h* < h_col: False
+  N=11: sign changes in h on (0.02, 5]: 1;  h* = 2.031555866;  h_A = 2.67785;  row (q = pi) boundary h = 2.038278914;  h* < h_col: False
+  N=12: sign changes in h on (0.02, 5]: 1;  h* = 2.107033416;  h_A = 2.7631;  row (q = pi) boundary h = 2.107033416;  h* < h_col: False

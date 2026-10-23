@@ -1,0 +1,358 @@
+⚠ [3182/3286] Replayed HyperbolicRings.Tanh.StableN2to7
+warning: HyperbolicRings/Tanh/StableN2to7.lean:70:26: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: HyperbolicRings/Tanh/StableN2to7.lean:70:45: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3183/3286] Replayed HyperbolicRings.Tanh.CertN9
+warning: HyperbolicRings/Tanh/CertN9.lean:274:25: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: HyperbolicRings/Tanh/CertN9.lean:274:44: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3184/3286] Replayed HyperbolicRings.Tanh.CertN11
+warning: HyperbolicRings/Tanh/CertN11.lean:340:26: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: HyperbolicRings/Tanh/CertN11.lean:340:45: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3258/3297] Replayed HyperbolicRings.Tanh.CertN13b
+warning: HyperbolicRings/Tanh/CertN13b.lean:162:26: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: HyperbolicRings/Tanh/CertN13b.lean:162:45: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3259/3297] Replayed HyperbolicRings.Tanh.CertN15b
+warning: HyperbolicRings/Tanh/CertN15b.lean:217:26: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: HyperbolicRings/Tanh/CertN15b.lean:217:45: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3658/3790] Replayed HyperbolicRings.Krein
+warning: HyperbolicRings/Krein.lean:40:48: This simp argument is unused:
+  Matrix.head_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [form, hessBlock, Matrix.mulVec, dotProduct, Fin.sum_univ_two, Matrix.cons_val',
+    Matrix.cons_val_zero, Matrix.cons_val_one, Matrix.of_apply, Pi.star_apply, Matrix.cons_val_fin_one,
+    Matrix.empty_val']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8982/8991] Replayed HyperbolicRings.Rows.Criterion
+warning: HyperbolicRings/Rows/Criterion.lean:193:20: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8983/8991] Replayed HyperbolicRings.Rows.PairTerm
+warning: HyperbolicRings/Rows/PairTerm.lean:205:87: This simp argument is unused:
+  zero_div
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h0, sub_self, sin_zero, cos_zero, ← two_mul, zero_mul, mul_one, sub_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: HyperbolicRings/Rows/PairTerm.lean:229:22: This simp argument is unused:
+  neg_neg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [zero_sub, cosh_neg, sinh_neg, sub_self, cos_zero, sin_zero, ← two_mul, mul_zero, add_zero, mul_one,
+    neg_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: HyperbolicRings/Rows/PairTerm.lean:291:74: This simp argument is unused:
+  mul_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [zero_sub, cosh_neg, sinh_neg, ← two_mul, mul_zero, add_zero, zero_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: HyperbolicRings/Rows/PairTerm.lean:316:19: This simp argument is unused:
+  h0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [dWu₀, sub_self, sin_zero, cos_zero, ← two_mul, zero_mul, mul_one, sub_zero, zero_div, zero_sub,
+    sinh_neg, cosh_neg, mul_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: HyperbolicRings/Rows/PairTerm.lean:337:13: This simp argument is unused:
+  h0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [sub_self, sin_zero, cos_zero, ← two_mul, zero_mul, mul_one, sub_zero, zero_div, zero_sub, sinh_neg,
+    cosh_neg, mul_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: HyperbolicRings/Rows/PairTerm.lean:350:0: automatically included section variable(s) unused in theorem `HyperbolicRings.Rows.Dd_cos`:
+  hb
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hb in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8984/8991] Replayed HyperbolicRings.Rows.Bloch
+warning: HyperbolicRings/Rows/Bloch.lean:67:0: automatically included section variable(s) unused in theorem `HyperbolicRings.Rows.K_lt_one`:
+  hℓ
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hℓ in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: HyperbolicRings/Rows/Bloch.lean:71:0: automatically included section variable(s) unused in theorem `HyperbolicRings.Rows.kl_ne`:
+  hα0
+  hαπ
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hα0 hαπ in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: HyperbolicRings/Rows/Bloch.lean:72:0: automatically included section variable(s) unused in theorem `HyperbolicRings.Rows.kl_ne'`:
+  hα0
+  hαπ
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hα0 hαπ in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: HyperbolicRings/Rows/Bloch.lean:128:0: automatically included section variable(s) unused in theorem `HyperbolicRings.Rows.summable_oddW`:
+  hα0
+  hαπ
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hα0 hαπ in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: HyperbolicRings/Rows/Bloch.lean:193:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/Bloch.lean:196:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/Bloch.lean:201:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/Bloch.lean:201:35: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/Bloch.lean:250:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/Bloch.lean:252:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/Bloch.lean:256:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/Bloch.lean:256:35: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/Bloch.lean:264:0: automatically included section variable(s) unused in theorem `HyperbolicRings.Rows.oddW_neg`:
+  hα0
+  hαπ
+  hℓ
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hα0 hαπ hℓ in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: HyperbolicRings/Rows/Bloch.lean:308:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/Bloch.lean:311:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/Bloch.lean:315:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/Bloch.lean:315:35: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/Bloch.lean:323:0: automatically included section variable(s) unused in theorem `HyperbolicRings.Rows.driftE_neg`:
+  hα0
+  hαπ
+  hℓ
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hα0 hαπ hℓ in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: HyperbolicRings/Rows/Bloch.lean:326:0: automatically included section variable(s) unused in theorem `HyperbolicRings.Rows.summable_driftE`:
+  hα0
+  hαπ
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hα0 hαπ in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: HyperbolicRings/Rows/Bloch.lean:402:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/Bloch.lean:405:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/Bloch.lean:409:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/Bloch.lean:409:35: `if_neg` has been deprecated: Use `ite_eq_right` instead
+⚠ [8985/8991] Replayed HyperbolicRings.Rows.CriticalMode
+warning: HyperbolicRings/Rows/CriticalMode.lean:33:26: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: HyperbolicRings/Rows/CriticalMode.lean:77:26: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: HyperbolicRings/Rows/CriticalMode.lean:118:64: Variable name `ht1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ht1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: HyperbolicRings/Rows/CriticalMode.lean:181:0: automatically included section variable(s) unused in theorem `HyperbolicRings.Rows.rho_lt`:
+  hα0
+  hαπ
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hα0 hαπ in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: HyperbolicRings/Rows/CriticalMode.lean:237:0: automatically included section variable(s) unused in theorem `HyperbolicRings.Rows.hasSum_Tjn_fiber`:
+  hα0
+  hαπ
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hα0 hαπ in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: HyperbolicRings/Rows/CriticalMode.lean:246:0: automatically included section variable(s) unused in theorem `HyperbolicRings.Rows.hasSum_Tjn_fiber'`:
+  hα0
+  hαπ
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hα0 hαπ in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: HyperbolicRings/Rows/CriticalMode.lean:335:0: automatically included section variable(s) unused in theorem `HyperbolicRings.Rows.F_arccos`:
+  hα0
+  hαπ
+  hℓ
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hα0 hαπ hℓ in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8987/8991] Replayed HyperbolicRings.Rows.Monotone
+warning: HyperbolicRings/Rows/Monotone.lean:56:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: HyperbolicRings/Rows/Monotone.lean:59:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/Monotone.lean:69:28: `if_pos` has been deprecated: Use `ite_eq_left` instead
+⚠ [8988/8991] Replayed HyperbolicRings.Horocycle.HyperLimit
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:66:37: `if_false` has been deprecated: Use `ite_false` instead
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:77:29: `if_false` has been deprecated: Use `ite_false` instead
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:81:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:83:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:177:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:182:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:207:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:211:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:216:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:220:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:212:29: This simp argument is unused:
+  Pi.sub_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.div_apply, Pi.mul_apply, Pi.add_apply, Function.comp, ← hd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:212:43: This simp argument is unused:
+  Pi.mul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.div_apply, Pi.sub_apply, Pi.add_apply, Function.comp, ← hd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:212:57: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.div_apply, Pi.sub_apply, Pi.mul_apply, Function.comp, ← hd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:221:29: This simp argument is unused:
+  Pi.sub_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.div_apply, Pi.mul_apply, Pi.add_apply, Function.comp, Pi.pow_apply, ← hd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:221:43: This simp argument is unused:
+  Pi.mul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.div_apply, Pi.sub_apply, Pi.add_apply, Function.comp, Pi.pow_apply, ← hd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:221:57: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.div_apply, Pi.sub_apply, Pi.mul_apply, Function.comp, Pi.pow_apply, ← hd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:221:86: This simp argument is unused:
+  Pi.pow_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.div_apply, Pi.sub_apply, Pi.mul_apply, Pi.add_apply, Function.comp, ← hd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: HyperbolicRings/Horocycle/HyperLimit.lean:303:19: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8989/8991] Replayed HyperbolicRings.Rows.SmallSpacing
+warning: HyperbolicRings/Rows/SmallSpacing.lean:51:31: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: HyperbolicRings/Rows/SmallSpacing.lean:55:36: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/SmallSpacing.lean:47:0: automatically included section variable(s) unused in theorem `HyperbolicRings.Rows.hasSum_gS`:
+  hα0
+  hαπ
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hα0 hαπ in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: HyperbolicRings/Rows/SmallSpacing.lean:76:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: HyperbolicRings/Rows/SmallSpacing.lean:83:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/SmallSpacing.lean:104:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: HyperbolicRings/Rows/SmallSpacing.lean:114:34: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: HyperbolicRings/Rows/SmallSpacing.lean:129:41: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/SmallSpacing.lean:133:34: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: HyperbolicRings/Rows/SmallSpacing.lean:115:29: This simp argument is unused:
+  Pi.sub_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.div_apply, Pi.mul_apply, Pi.add_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: HyperbolicRings/Rows/SmallSpacing.lean:115:43: This simp argument is unused:
+  Pi.mul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.div_apply, Pi.sub_apply, Pi.add_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: HyperbolicRings/Rows/SmallSpacing.lean:115:57: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.div_apply, Pi.sub_apply, Pi.mul_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: HyperbolicRings/Rows/SmallSpacing.lean:222:18: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+✔ [8990/8991] Built HyperbolicRings (22s)
+Build completed successfully (8991 jobs).
+
+real	0m34.180s
+user	0m14.663s
+sys	0m9.616s

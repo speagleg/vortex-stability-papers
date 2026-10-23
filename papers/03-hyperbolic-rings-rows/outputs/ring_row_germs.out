@@ -1,0 +1,58 @@
+threshold rings vs the hypercycle branch; mp.dps = 50
+tau_inf = 7.44533924494901868722732618535  l_* = 2 pi/tau_inf = 0.843908531292533472960725942436
+  PASS  l_* agrees with conventions 0.8439085312925
+varsigma formula: even 0.5412188399510614869467016  odd 0.4010382402899548325053433
+  PASS  new roots reproduce certified xi_*(N), N=8..16 (25 printed digits): max dev 9.98e-26
+  PASS  roots of the exact symbol are roots of the rational block a_perp_floor(N/2) (N<=40): 6.4e-52
+  varsigma_e: Richardson 0.54121883995106148724 / 0.54121883995106148712, formula 0.54121883995106148695, |diff| 1.77e-19
+  varsigma_o: Richardson 0.40103824028995483273 / 0.40103824028995483264, formula 0.40103824028995483251, |diff| 1.31e-19
+  PASS  second-order constants (Prop 5.3) confirmed to 1e-12 (numerically)
+  PASS  E(1, l) = I(l) of eq. (8): l^E(1) = l_*
+
+Table: N, parity, kappa_N - 1, l_N, N^2 (l_N - l_*), N^2 (l_N - l^E(kappa_N)), N^2 (Re l_c - l_N)
+  (l_c: complex root of calF^mod(alpha = i a, l_u = i l sinh a) = 0 continuing the hypercycle root, the literal
+   alpha-continuation of the modular-part threshold; shown for N >= 16, where Newton from l_N + i c1 a tracks that branch)
+     8 e        1.05631918668   0.43711221541078549384   -26.0349642164  4.48858565429e-50            n/a  (certified xi_*)
+     9 o       0.656241057344   0.52877622147506431868   -25.5257170952    -0.611590115317            n/a  (certified xi_*)
+    10 e       0.430565245216   0.61419565671396949405   -22.9712874579 -5.93923781573e-50            n/a  (certified xi_*)
+    11 o       0.331555349567   0.64966025543104904615   -23.5040413792    -0.726293340561            n/a  (certified xi_*)
+    12 e       0.253910338286   0.69213388631358786025    -21.855548877  2.29849363738e-50            n/a  (certified xi_*)
+    13 o       0.209654789364   0.71010391518876473131   -22.6129801215     -0.77840597692            n/a  (certified xi_*)
+    14 e       0.171554244699   0.73530201727849648765   -21.2868767468  1.05389524639e-49            n/a  (certified xi_*)
+    15 o       0.147009123583   0.74558904812157183555   -22.1218837135      -0.8073064034            n/a  (certified xi_*)
+    16 e       0.124961679744   0.76207182817532237512    -20.950195998 -4.76941355136e-49   -25.73530272  (certified xi_*)
+    24 e      0.0511189820823   0.80850386639085496209   -20.3930869834 -1.82622203482e-48   -27.82366979
+    32 e        0.02798730441   0.82416987908015452943   -20.2123798655  4.75595641595e-48   -28.62353235
+    33 o      0.0263156344462   0.82452809491149990016   -21.1052952189    -0.867063044428   -27.87315244
+    48 e      0.0122076992426   0.83519006050998892538    -20.087356683  2.83368393852e-48   -29.22242642
+    63 o     0.00704654209938   0.83863420464922342578   -20.9338024473    -0.877084445192   -28.56733777
+    64 e      0.0068226244323   0.83901488848439357365   -20.0443609421  8.95295264105e-48   -29.43799489
+    65 o     0.00661594281662   0.83895469936921883417    -20.929939876    -0.877309835193   -28.58365744
+    96 e      0.0030184195841   0.84173688573080128835   -20.0138854969 -1.25198263149e-47   -29.59396633
+    97 o     0.00295694217715   0.84168756583533923511   -20.8970639867    -0.879227599569    -28.7238571
+   127 o     0.00172223159943   0.84261359990114646933   -20.8859484117    -0.879875754564   -28.77179198
+   128 e     0.00169515191081   0.84268762888755366187   -20.0032650032   4.6690213506e-47   -29.64895793
+  PASS  even N = 8..128: l_N = l^E(kappa_N) exactly (max |diff| 4.64e-51)
+  odd N: N^2 (l_N - l^E(kappa_N)) -> -0.879875754564 at N=127; 2 pi (varsigma_o - varsigma_e) = -0.880780684142
+  PASS  odd N deviate at O(N^-2) (not O(N^-4)): the parity split of varsigma
+
+Hypercycle branch l^*(kappa), kappa = cos alpha < 1, from calF(pi) = 0 (modular-dual form, checked against the direct sum):
+  PASS  modular-dual form = direct lattice sum at (alpha,l_u) = (0.3,0.5), (1.1,1.3): 2.94e-50
+  prediction: l^*(cos alpha) - l^E(cos alpha) = c1 alpha + O(alpha^2), c1 = 2/(l_* I'(l_*)) = 0.63245189496672
+   alpha        kappa              l^*(kappa)              l^E(kappa)             (l^* - l^E)/alpha
+   0.4      0.9210609940028851     1.319264935249055853   0.90470214310742095728     1.03640698035409
+   0.2      0.9800665778412416    1.0134926756022358159    0.8585197381831613534    0.774864687095372
+   0.1      0.9950041652780258   0.91691739687905108485   0.84752619646892283427    0.693912004101283
+   0.05     0.9987502603949662   0.87786689923119139234   0.84481077497033599926    0.661122485217108
+   0.025    0.9996875162757026   0.86029170939441200653   0.84413395678558773167    0.646310104352971
+   0.0125   0.9999218760172473   0.85195570407505876043   0.84396487920729079274    0.639265989421437
+  Richardson (quadratic in alpha, last 3 points): lim (l^* - l^E)/alpha = 0.632463258157  vs c1 = 0.632451894967
+  PASS  (l^* - l^E)/alpha -> c1 (nonzero): l^*(kappa) = l^E(kappa) + c1 sqrt(2(1-kappa)) + O(1-kappa):
+        square-root branch point at kappa = 1 in kappa (and in kappa^2 - 1); analytic in alpha up to the
+        beyond-all-orders dual-nome terms O(alpha^-1 exp(-2 pi^2/(l sin alpha))).
+Summary: (i) the alpha-odd term -alpha sin(2 alpha)/l_u of calF^mod obstructs an analytic continuation of l^* in kappa;
+         (ii) the alpha-even part l^E(kappa) continues analytically through (1, l_*) and passes EXACTLY through every
+              even-N threshold ring (to 40 digits, N = 8..128);
+         (iii) odd-N threshold rings miss l^E by 2 pi (varsigma_o - varsigma_e)/N^2 + O(N^-4) (critical mode q = pi - pi/N);
+         (iv) hence l_N = l*_cont(kappa_N) + O(N^-4) holds (exactly) for even N with l*_cont = l^E and fails at O(N^-2) for odd N.
+OVERALL PASS

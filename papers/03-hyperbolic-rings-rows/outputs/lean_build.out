@@ -1,0 +1,121 @@
+✔ [3168/3224] Built HyperbolicRings.Tanh.LargeN.Defs (9.4s)
+✔ [3169/3224] Built HyperbolicRings.Tanh.General (14s)
+✔ [3170/3224] Built HyperbolicRings.Tanh.LargeN.EMCore (26s)
+✔ [3171/3224] Built HyperbolicRings.Tanh.IrredBasic (109s)
+✔ [3172/3224] Built HyperbolicRings.Tanh.LargeN.RowFourier (148s)
+✔ [3173/3224] Built HyperbolicRings.Tanh.LargeN.Symbol (115s)
+✔ [3174/3224] Built HyperbolicRings.Tanh.CertN8 (229s)
+⚠ [3175/3224] Built HyperbolicRings.Tanh.CertN9 (270s)
+warning: HyperbolicRings/Tanh/CertN9.lean:274:25: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: HyperbolicRings/Tanh/CertN9.lean:274:44: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3176/3224] Built HyperbolicRings.Tanh.BlocksSums (127s)
+✔ [3177/3224] Built HyperbolicRings.Tanh.LargeN.PhiLimit (123s)
+✔ [3178/3224] Built HyperbolicRings.Tanh.CertN10 (367s)
+✔ [3179/3224] Built HyperbolicRings.Tanh.LargeN.RowSymbol (141s)
+✔ [3180/3224] Built HyperbolicRings.Tanh.IrredN8 (110s)
+✔ [3181/3224] Built HyperbolicRings.Tanh.LargeN.Stiffness (118s)
+⚠ [3182/3224] Built HyperbolicRings.Tanh.CertN11 (399s)
+warning: HyperbolicRings/Tanh/CertN11.lean:340:26: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: HyperbolicRings/Tanh/CertN11.lean:340:45: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3183/3224] Built HyperbolicRings.Tanh.CertN12a (400s)
+✔ [3184/3224] Built HyperbolicRings.Tanh.IrredN9 (55s)
+✔ [3185/3224] Built HyperbolicRings.Tanh.IrredN10 (34s)
+✔ [3186/3224] Built HyperbolicRings.Tanh.BlocksCalc (44s)
+⚠ [3187/3224] Built HyperbolicRings.Tanh.StableN2to7 (391s)
+warning: HyperbolicRings/Tanh/StableN2to7.lean:70:26: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: HyperbolicRings/Tanh/StableN2to7.lean:70:45: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3188/3224] Built HyperbolicRings.Tanh.CertN13a (448s)
+✔ [3189/3224] Built HyperbolicRings.Tanh.LargeN.RowHessian (75s)
+✔ [3190/3224] Built HyperbolicRings.Tanh.Blocks (49s)
+✔ [3191/3224] Built HyperbolicRings.Tanh.LargeN.CritMode (67s)
+✔ [3192/3224] Built HyperbolicRings.Tanh.IrredN11 (81s)
+✔ [3193/3224] Built HyperbolicRings.Tanh.CertN14a (500s)
+✔ [3194/3224] Built HyperbolicRings.Tanh.BlocksHess (45s)
+✔ [3195/3224] Built HyperbolicRings.Tanh.LargeN.Threshold (42s)
+✔ [3196/3224] Built HyperbolicRings.Tanh.LargeN.RowStability (46s)
+✔ [3197/3224] Built HyperbolicRings.Tanh.LargeN.EvenN (134s)
+✔ [3198/3224] Built HyperbolicRings.Tanh.BlocksFourier (57s)
+✔ [3199/3224] Built HyperbolicRings.Tanh.LargeN.ThresholdEven (45s)
+✔ [3200/3224] Built HyperbolicRings.Tanh.LargeN.Dynamics (64s)
+✔ [3201/3224] Built HyperbolicRings.TanhBlocks (26s)
+✔ [3202/3224] Built HyperbolicRings.Tanh.CertN12b (209s)
+✔ [3203/3224] Built HyperbolicRings.Tanh.LinearFlow (40s)
+✔ [3204/3224] Built HyperbolicRings.Tanh.IrredN12 (26s)
+✔ [3205/3224] Built HyperbolicRings.Tanh.LargeN.ThresholdLimit (139s)
+⚠ [3206/3224] Built HyperbolicRings.Tanh.CertN13b (219s)
+warning: HyperbolicRings/Tanh/CertN13b.lean:162:26: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: HyperbolicRings/Tanh/CertN13b.lean:162:45: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3207/3224] Built HyperbolicRings.Tanh.CertN15a (679s)
+✔ [3208/3224] Built HyperbolicRings.Tanh.LargeN.ThresholdSpacing (31s)
+✔ [3209/3224] Built HyperbolicRings.Tanh.LargeN.ThresholdKrein (36s)
+✔ [3210/3224] Built HyperbolicRings.Tanh.CertN14b (210s)
+✔ [3211/3224] Built HyperbolicRings.Tanh.LargeN.OddN (65s)
+✔ [3212/3224] Built HyperbolicRings.Tanh.IrredN13 (56s)
+✔ [3213/3224] Built HyperbolicRings.Tanh.IrredN14 (20s)
+✔ [3214/3224] Built HyperbolicRings.Tanh.CertN16a (747s)
+⚠ [3215/3224] Built HyperbolicRings.Tanh.CertN15b (149s)
+warning: HyperbolicRings/Tanh/CertN15b.lean:217:26: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: HyperbolicRings/Tanh/CertN15b.lean:217:45: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3216/3224] Built HyperbolicRings.Tanh.LargeN.AllN (11s)
+✔ [3217/3224] Built HyperbolicRings.TanhLargeN (14s)
+✔ [3218/3224] Built HyperbolicRings.Tanh.IrredN15 (42s)
+✔ [3219/3224] Built HyperbolicRings.Tanh.CertN16b (287s)
+✔ [3220/3224] Built HyperbolicRings.Tanh.CertN16c (119s)
+✔ [3221/3224] Built HyperbolicRings.Tanh.IrredN16 (27s)
+✔ [3222/3224] Built HyperbolicRings.TanhIrred (17s)
+✔ [3223/3224] Built HyperbolicRings (18s)
+Build completed successfully (3224 jobs).
+
+real	20m38.596s
+user	102m40.105s
+sys	15m33.692s

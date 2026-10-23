@@ -1,0 +1,99 @@
+\begin{thebibliography}{10}
+
+\bibitem{Aref1995}
+Hassan Aref.
+\newblock On the equilibrium and stability of a row of point vortices.
+\newblock {\em J. Fluid Mech.}, 290:167--181, 1995.
+
+\bibitem{Boatto2008}
+Stefanella Boatto.
+\newblock Curvature perturbations and stability of a ring of vortices.
+\newblock {\em Discrete Contin. Dyn. Syst. Ser. B}, 10(2--3):349--375, 2008.
+
+\bibitem{Havelock1931}
+T.~H. Havelock.
+\newblock The stability of motion of rectilinear vortices in ring formation.
+\newblock {\em Phil. Mag. (7)}, 11:617--633, 1931.
+
+\bibitem{HwangKim2009}
+Seungsu Hwang and Sun-Chul Kim.
+\newblock Point vortices on hyperbolic sphere.
+\newblock {\em J. Geom. Phys.}, 59:475--488, 2009.
+
+\bibitem{HwangKim2013}
+Seungsu Hwang and Sun-Chul Kim.
+\newblock Relative equilibria of point vortices on the hyperbolic sphere.
+\newblock {\em J. Math. Phys.}, 54:063101, 2013.
+
+\bibitem{Johansson2017}
+Fredrik Johansson.
+\newblock Arb: efficient arbitrary-precision midpoint-radius interval
+  arithmetic.
+\newblock {\em IEEE Trans. Comput.}, 66(8):1281--1292, 2017.
+
+\bibitem{Kimura1999}
+Yoshifumi Kimura.
+\newblock Vortex motion on surfaces with constant curvature.
+\newblock {\em Proc. R. Soc. Lond. A}, 455:245--259, 1999.
+
+\bibitem{Lamb1932}
+Horace Lamb.
+\newblock {\em Hydrodynamics}.
+\newblock Cambridge University Press, 6th edition, 1932.
+
+\bibitem{MacKay1986}
+R.~S. MacKay.
+\newblock Stability of equilibria of {H}amiltonian systems.
+\newblock In S.~Sarkar, editor, {\em Nonlinear Phenomena and Chaos}, pages
+  254--270. Adam Hilger, 1986.
+
+\bibitem{MontaldiNavaGaxiola2014}
+James Montaldi and Citlalitl Nava-Gaxiola.
+\newblock Point vortices on the hyperbolic plane.
+\newblock {\em J. Math. Phys.}, 55:102702, 2014.
+\newblock arXiv:1403.2138.
+
+\bibitem{MontaldiTokieda2013}
+James Montaldi and Tadashi Tokieda.
+\newblock Deformation of geometry and bifurcations of vortex rings.
+\newblock In {\em Recent Trends in Dynamical Systems}, volume~35 of {\em
+  Springer Proc. Math. Stat.}, pages 335--370. Springer, 2013.
+\newblock arXiv:1210.5662; section and equation numbers refer to arXiv v1.
+
+\bibitem{NavaGaxiola2013}
+Citlalitl Nava-Gaxiola.
+\newblock {\em Point vortices on the hyperboloid}.
+\newblock PhD thesis, University of Manchester, 2013.
+
+\bibitem{SimoLewisMarsden1991}
+J.~C. Simo, D.~Lewis, and J.~E. Marsden.
+\newblock Stability of relative equilibria. {P}art {I}: The reduced
+  energy-momentum method.
+\newblock {\em Arch. Rational Mech. Anal.}, 115:15--59, 1991.
+
+\bibitem{HavelockRepo}
+Gordon Speagle.
+\newblock havelock-vortex-rings: research notes and scripts.
+\newblock \url{https://github.com/speagleg/havelock-vortex-rings}, 2026.
+\newblock Research repository, commit 2cc1ee5; draft
+  \texttt{tanh/note\_tanh.tex}.
+
+\bibitem{SteinShakarchi2003}
+Elias~M. Stein and Rami Shakarchi.
+\newblock {\em Fourier Analysis: An Introduction}.
+\newblock Princeton University Press, 2003.
+
+\bibitem{Mathlib2020}
+{The mathlib Community}.
+\newblock The {L}ean mathematical library.
+\newblock In {\em Proc. 9th ACM SIGPLAN Int. Conf. Certified Programs and
+  Proofs (CPP 2020)}, pages 367--381, 2020.
+
+\bibitem{vonKarman1912}
+Theodore von K{\'a}rm{\'a}n.
+\newblock {\"U}ber den mechanismus des widerstandes, den ein bewegter
+  k{\"o}rper in einer fl{\"u}ssigkeit erf{\"a}hrt.
+\newblock {\em Nachr. Ges. Wiss. G{\"o}ttingen, Math.-Phys. Kl.}, pages
+  547--556, 1912.
+
+\end{thebibliography}

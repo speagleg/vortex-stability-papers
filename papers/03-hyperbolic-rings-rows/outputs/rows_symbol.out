@@ -1,0 +1,37 @@
+exact Bloch symbol of G_1 hypercycle rows from a direct lattice-sum Hessian.
+(a) pair functions derived by sympy (K2 = kappa^2):
+  a(c) = -(kappa - 1)*(kappa + 1)*(3*c**2*kappa**2 - c**2 - 4*c*kappa**4 + c*kappa**2 - c + 2*kappa**4)/((c - 1)*(c - 2*kappa**2 + 1)**2)
+  b(c) = -(kappa - 1)*(kappa + 1)*(c**2*kappa**2 - 3*c*kappa**2 + c + 2*kappa**4 - 2*kappa**2 + 1)/((c - 1)*(c - 2*kappa**2 + 1)**2)
+  d(c) = -(kappa - 1)**2*(kappa + 1)**2*(c**2 + c - 2*kappa**2)/((c - 1)*(c - 2*kappa**2 + 1)**2)
+  a - b = s^2((2K2-1)c-1)/((c-1)D): exact difference = 0
+  a + b = s^2((4K2-1)c-(4K2^2-2K2+1))/D^2: exact difference = 0
+  b - d = s^2/(c-1): exact difference = 0
+  a - d = sin^2(2a)/(2(c - cos2a)): exact difference = 0
+  b = s^2 Nb(t)/((c-1) D^2), Nb(t) coefficients (t^2, t, 1): [K2, 1 - K2, 2*(K2 - 1)**2]
+  d = -s^4 Nd(c)/((c-1)^2 D^2) with Nd = (c - 1)*(c**2 + c - 2*kappa**2) ; Nd(c) in t = c-1: [1, 3, 2 - 2*K2, 0]
+(b) generating functions, z = e^{-x}, c = cosh x (max abs difference over samples):
+  b: 1.65e-39   d: 2.2e-39
+(c) direct numerical Hessian (mpmath diff) vs closed forms, pairs j = +-1, +-2, +-3:
+  kappa=   0.3 ell_u=0.7: a: 9.2e-41, b: 1.1e-40, d: 6.9e-41, dp/duj=-d: 0, parity: 0  d(j=1) = -1.9975382
+  kappa=  0.72 ell_u=2.0: a: 6.5e-42, b: 0, d: 1.4e-42, dp/duj=-d: 0, parity: 0  d(j=1) = -0.10212536
+  kappa=   0.9 ell_u=1.1: a: 3.7e-41, b: 5.7e-42, d: 8.6e-42, dp/duj=-d: 0, parity: 0  d(j=1) = -0.13912566
+  kappa= 0.999 ell_u=0.6: a: 9.3e-42, b: 1.1e-41, d: 3.9e-44, dp/duj=-d: 0, parity: 0  d(j=1) = -0.00035700778
+  kappa=  -0.6 ell_u=1.5: a: 1.7e-41, b: 2.7e-43, d: 7.2e-43, dp/duj=-d: 0, parity: 0  d(j=1) = -0.31321038
+(d) lattice-sum symbol from the numerical Hessian vs closed forms (Bloch convention e^{+iqk}):
+  kappa=   0.3 ell_u=0.7: max|numeric - closed| over q, entries = 9.5e-30;  F(pi) = B(pi)/2 = -4.12839418813,  C(pi) = -9.16420564423
+  kappa=  0.72 ell_u=2.0: max|numeric - closed| over q, entries = 2.5e-31;  F(pi) = B(pi)/2 = -0.0215780834573,  C(pi) = -0.41323397871
+  kappa=   0.9 ell_u=1.1: max|numeric - closed| over q, entries = 3.9e-31;  F(pi) = B(pi)/2 = 0.131219852922,  C(pi) = -0.571288680911
+  kappa= 0.999 ell_u=0.6: max|numeric - closed| over q, entries = 4.1e-31;  F(pi) = B(pi)/2 = 0.0206455558925,  C(pi) = -0.00144944548612
+  kappa=  -0.6 ell_u=1.5: max|numeric - closed| over q, entries = 5.9e-31;  F(pi) = B(pi)/2 = -0.279599442098,  C(pi) = -1.29232102703
+(e) 6-site supercell velocity Jacobian eigenvalues vs i varpi(q) +- sqrt(B C), q = 2 pi m/6:
+  kappa=   0.3 ell_u=0.7: q != 0 max eigenvalue mismatch = 1.2e-29; q = 0 pair |lambda| <= 2.9e-15 (2 eigenvalues);  max Re(lambda) = 8.698672694
+  kappa=  0.72 ell_u=2.0: q != 0 max eigenvalue mismatch = 2.8e-31; q = 0 pair |lambda| <= 1.4e-16 (2 eigenvalues);  max Re(lambda) = 0.1335424822
+  kappa=   0.9 ell_u=1.1: q != 0 max eigenvalue mismatch = 7.4e-31; q = 0 pair |lambda| <= 1.6e-16 (2 eigenvalues);  max Re(lambda) = 8.527071295e-32
+  kappa= 0.999 ell_u=0.6: q != 0 max eigenvalue mismatch = 4.1e-32; q = 0 pair |lambda| <= 1.1e-17 (2 eigenvalues);  max Re(lambda) = 4.168306571e-33
+  kappa=  -0.6 ell_u=1.5: q != 0 max eigenvalue mismatch = 6.9e-31; q = 0 pair |lambda| <= 1.6e-16 (2 eigenvalues);  max Re(lambda) = 0.8500967453
+(f) F(q) = sum_j [a_j + b_j cos qj] strictly decreasing on a 200-point grid of (0, pi):
+  kappa=   0.3 ell_u=0.7: decreasing True;  F(pi) < 0
+  kappa=  0.72 ell_u=2.0: decreasing True;  F(pi) < 0
+  kappa=   0.9 ell_u=1.1: decreasing True;  F(pi) >= 0
+  kappa= 0.999 ell_u=0.6: decreasing True;  F(pi) >= 0
+  kappa=  -0.6 ell_u=1.5: decreasing True;  F(pi) < 0

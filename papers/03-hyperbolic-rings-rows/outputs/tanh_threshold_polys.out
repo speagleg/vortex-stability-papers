@@ -1,0 +1,94 @@
+tanh threshold polynomials f_N (N = 8..16), irreducibility, palindromy,
+(a) derived blocks - note Thm 2 literal: nonzero differences over N=2..16, m=1..N-1 (aperp, apar, varpi): 0
+    W_k closed form vs series (N=2..16, k=1..N, through degree k+6N): mismatches 0
+
+(b,c) cleared numerators: reciprocity and exact zero structure on (0,1)
+  N= 2: zeros of check aperp_m in (0,1): 0; of check apar_m: 0; all positive at 1/2: True
+  N= 3: zeros of check aperp_m in (0,1): 0; of check apar_m: 0; all positive at 1/2: True
+  N= 4: zeros of check aperp_m in (0,1): 0; of check apar_m: 0; all positive at 1/2: True
+  N= 5: zeros of check aperp_m in (0,1): 0; of check apar_m: 0; all positive at 1/2: True
+  N= 6: zeros of check aperp_m in (0,1): 0; of check apar_m: 0; all positive at 1/2: True
+  N= 7: zeros of check aperp_m in (0,1): 0; of check apar_m: 0; all positive at 1/2: True
+  N= 8: apar_m zeros 0, positive at 1/2 True; crit m=4: one simple zero; aperp_1, aperp_2 zero-free and positive: True; m=3..3: one simple zero each, below xi_*: True  [counts [(1, 0), (2, 0), (3, 1)]]
+  N= 9: apar_m zeros 0, positive at 1/2 True; crit m=4: one simple zero; aperp_1, aperp_2 zero-free and positive: True; m=3..3: one simple zero each, below xi_*: True  [counts [(1, 0), (2, 0), (3, 1)]]
+  N=10: apar_m zeros 0, positive at 1/2 True; crit m=5: one simple zero; aperp_1, aperp_2 zero-free and positive: True; m=3..4: one simple zero each, below xi_*: True  [counts [(1, 0), (2, 0), (3, 1), (4, 1)]]
+  N=11: apar_m zeros 0, positive at 1/2 True; crit m=5: one simple zero; aperp_1, aperp_2 zero-free and positive: True; m=3..4: one simple zero each, below xi_*: True  [counts [(1, 0), (2, 0), (3, 1), (4, 1)]]
+  N=12: apar_m zeros 0, positive at 1/2 True; crit m=6: one simple zero; aperp_1, aperp_2 zero-free and positive: True; m=3..5: one simple zero each, below xi_*: True  [counts [(1, 0), (2, 0), (3, 1), (4, 1), (5, 1)]]
+  N=13: apar_m zeros 0, positive at 1/2 True; crit m=6: one simple zero; aperp_1, aperp_2 zero-free and positive: True; m=3..5: one simple zero each, below xi_*: True  [counts [(1, 0), (2, 0), (3, 1), (4, 1), (5, 1)]]
+  N=14: apar_m zeros 0, positive at 1/2 True; crit m=7: one simple zero; aperp_1, aperp_2 zero-free and positive: True; m=3..6: one simple zero each, below xi_*: True  [counts [(1, 0), (2, 0), (3, 1), (4, 1), (5, 1), (6, 1)]]
+  N=15: apar_m zeros 0, positive at 1/2 True; crit m=7: one simple zero; aperp_1, aperp_2 zero-free and positive: True; m=3..6: one simple zero each, below xi_*: True  [counts [(1, 0), (2, 0), (3, 1), (4, 1), (5, 1), (6, 1)]]
+  N=16: apar_m zeros 0, positive at 1/2 True; crit m=8: one simple zero; aperp_1, aperp_2 zero-free and positive: True; m=3..7: one simple zero each, below xi_*: True  [counts [(1, 0), (2, 0), (3, 1), (4, 1), (5, 1), (6, 1), (7, 1)]]
+  reciprocity failures (x^(2N+2) A(1/x)=A, x^(2N) B(1/x)=B, x^(2N) V(1/x)=-V): 0
+
+(d,e,f) critical numerator factorisation, f_N, roots
+  N= 8: factors (deg:lead)^mult (10:1)^1 [xi_*] (4:1)^1 (1:1)^4; content -2
+        A_crit = ((-2)) (x-1)^4 (x^4+1) f_N exactly: True
+        f_N: degree 10 (claim 10, pattern 10), lead 1 (claim 1), primitive True, palindromic True, irreducible over Z (flint) True, irreducible mod 7
+        trace poly g (deg 5) irreducible True: C**5 - 12*C**4 - 42*C**3 - 24*C**2 + 32*C + 32
+        xi_* = 0.067356223004081262268437476566235574394025117569743  (Arb radius 3.66e-154)
+        rational sign change A_crit(lo)<0<A_crit(hi), width 1/50000000000000000000000000000000000000000000000000000000000000000000000000000000: True
+        |xi_* - archive| = 4.04e-57   cosh r_* = 1.14444147844  sqrt xi_* = 0.259530774676
+        N=8: f_8 = stated polynomial: True; monic True, constant 1 -> xi_*(8) algebraic integer with algebraic-integer inverse: unit of degree 10
+        N=8: g = stated C^5-12C^4-42C^3-24C^2+32C+32: True; C = xi+1/xi = 14.9137943901116 = 2+4/sinh^2 r_* = 14.9137943901116
+  N= 9: factors (deg:lead)^mult (16:4)^1 [xi_*] (1:1)^4; content -1
+        f_N: degree 16 (claim 16, pattern 16), lead 4 (claim 4), primitive True, palindromic True, irreducible over Z (flint) True, irreducible mod 13
+        trace poly g (deg 8) irreducible True: 4*C**8 - 24*C**7 - 112*C**6 + 8*C**5 + 336*C**4 + 205*C**3 - 194*C**2 - 216*C - 88
+        xi_* = 0.11287106323660274043969401905650541554651262119976  (Arb radius 6.79e-154)
+        rational sign change A_crit(lo)<0<A_crit(hi), width 1/50000000000000000000000000000000000000000000000000000000000000000000000000000000: True
+        |xi_* - archive| = 1.58e-56   cosh r_* = 1.25446371674  sqrt xi_* = 0.335962889672
+        N=9: primitive irreducible with lead 4 != +-1 -> xi_*(N) is not an algebraic integer
+  N=10: factors (deg:lead)^mult (4:1)^1 (12:7)^1 [xi_*] (1:1)^2 (1:1)^4; content -1
+        A_crit = ((-1)) (x-1)^4 (x^5+1) (x+1) f_N exactly: True
+        f_N: degree 12 (claim 12, pattern 12), lead 7 (claim 7), primitive True, palindromic True, irreducible over Z (flint) True, irreducible mod 107
+        trace poly g (deg 6) irreducible True: 7*C**6 - 29*C**5 - 96*C**4 + 27*C**3 + 112*C**2 + 51*C + 25
+        xi_* = 0.16611424152623911808175869978489718411277213101352  (Arb radius 8.4e-154)
+        rational sign change A_crit(lo)<0<A_crit(hi), width 1/50000000000000000000000000000000000000000000000000000000000000000000000000000000: True
+        |xi_* - archive| = 5.63e-57   cosh r_* = 1.39841006958  sqrt xi_* = 0.407571149036
+        N=10: primitive irreducible with lead 7 != +-1 -> xi_*(N) is not an algebraic integer
+  N=11: factors (deg:lead)^mult (20:10)^1 [xi_*] (1:1)^4; content -1
+        f_N: degree 20 (claim 20, pattern 20), lead 10 (claim 10), primitive True, palindromic True, irreducible over Z (flint) True, irreducible mod 17
+        trace poly g (deg 10) irreducible True: 10*C**10 - 20*C**9 - 186*C**8 - 4*C**7 + 728*C**6 + 343*C**5 - 814*C**4 - 470*C**3 + 56*C**2 - 41*C - 58
+        xi_* = 0.20460117688266929063553583315480299815006661809463  (Arb radius 1.02e-153)
+        rational sign change A_crit(lo)<0<A_crit(hi), width 1/50000000000000000000000000000000000000000000000000000000000000000000000000000000: True
+        |xi_* - archive| = 3.89e-56   cosh r_* = 1.5144618547  sqrt xi_* = 0.452328616033
+        N=11: primitive irreducible with lead 10 != +-1 -> xi_*(N) is not an algebraic integer
+  N=12: factors (deg:lead)^mult (16:7)^1 [xi_*] (2:1)^1 (4:1)^1 (1:1)^4; content -2
+        A_crit = ((-2)) (x-1)^4 (x^6+1) f_N exactly: True
+        f_N: degree 16 (claim 16, pattern 16), lead 7 (claim 7), primitive True, palindromic True, irreducible over Z (flint) True, irreducible mod 11
+        trace poly g (deg 8) irreducible True: 7*C**8 - 8*C**7 - 99*C**6 - 40*C**5 + 233*C**4 + 120*C**3 - 117*C**2 + 24*C + 24
+        xi_* = 0.24741777680406770917396508871991794571292976668081  (Arb radius 1.48e-153)
+        rational sign change A_crit(lo)<0<A_crit(hi), width 1/50000000000000000000000000000000000000000000000000000000000000000000000000000000: True
+        |xi_* - archive| = 5.02e-57   cosh r_* = 1.65751693085  sqrt xi_* = 0.497411074268
+        N=12: primitive irreducible with lead 7 != +-1 -> xi_*(N) is not an algebraic integer
+  N=13: factors (deg:lead)^mult (24:18)^1 [xi_*] (1:1)^4; content -1
+        f_N: degree 24 (claim 24, pattern 24), lead 18 (claim 18), primitive True, palindromic True, irreducible over Z (flint) True, irreducible mod 101
+        trace poly g (deg 12) irreducible True: 18*C**12 - 12*C**11 - 302*C**10 - 68*C**9 + 1482*C**8 + 740*C**7 - 2890*C**6 - 1481*C**5 + 2360*C**4 + 622*C**3 - 946*C**2 + 7*C - 10
+        xi_* = 0.27986138864390668702999656468566160223481397755296  (Arb radius 1.49e-153)
+        rational sign change A_crit(lo)<0<A_crit(hi), width 1/50000000000000000000000000000000000000000000000000000000000000000000000000000000: True
+        |xi_* - archive| = 4.31e-56   cosh r_* = 1.77724311467  sqrt xi_* = 0.529019270579
+        N=13: primitive irreducible with lead 18 != +-1 -> xi_*(N) is not an algebraic integer
+  N=14: factors (deg:lead)^mult (6:1)^1 (18:23)^1 [xi_*] (1:1)^2 (1:1)^4; content -1
+        A_crit = ((-1)) (x-1)^4 (x^7+1) (x+1) f_N exactly: True
+        f_N: degree 18 (claim 18, pattern 18), lead 23 (claim 23), primitive True, palindromic True, irreducible over Z (flint) True, irreducible mod 3
+        trace poly g (deg 9) irreducible True: 23*C**9 - 29*C**8 - 261*C**7 + 82*C**6 + 784*C**5 - 27*C**4 - 815*C**3 + 71*C**2 + 342*C - 49
+        xi_* = 0.31493896311550662339350546338108367669396039328292  (Arb radius 1.58e-153)
+        rational sign change A_crit(lo)<0<A_crit(hi), width 1/50000000000000000000000000000000000000000000000000000000000000000000000000000000: True
+        |xi_* - archive| = 4.09e-56   cosh r_* = 1.91944789197  sqrt xi_* = 0.561194229403
+        N=14: primitive irreducible with lead 23 != +-1 -> xi_*(N) is not an algebraic integer
+  N=15: factors (deg:lead)^mult (28:28)^1 [xi_*] (1:1)^4; content -1
+        f_N: degree 28 (claim 28, pattern 28), lead 28 (claim 28), primitive True, palindromic True, irreducible over Z (flint) True, irreducible mod 29
+        trace poly g (deg 14) irreducible True: 28*C**14 - 472*C**12 - 208*C**11 + 2736*C**10 + 1696*C**9 - 7240*C**8 - 4839*C**7 + 9514*C**6 + 5932*C**5 - 6432*C**4 - 3340*C**3 + 2008*C**2 + 672*C - 304
+        xi_* = 0.34245858351217025660102263867132073171441691411372  (Arb radius 2.1e-153)
+        rational sign change A_crit(lo)<0<A_crit(hi), width 1/50000000000000000000000000000000000000000000000000000000000000000000000000000000: True
+        |xi_* - archive| = 3.8e-57   cosh r_* = 2.04163349996  sqrt xi_* = 0.585199609973
+        N=15: primitive irreducible with lead 28 != +-1 -> xi_*(N) is not an algebraic integer
+  N=16: factors (deg:lead)^mult (8:1)^1 (22:17)^1 [xi_*] (1:1)^4; content -2
+        A_crit = ((-2)) (x-1)^4 (x^8+1) f_N exactly: True
+        f_N: degree 22 (claim 22, pattern 22), lead 17 (claim 17), primitive True, palindromic True, irreducible over Z (flint) True, irreducible mod 163
+        trace poly g (deg 11) irreducible True: 17*C**11 + 4*C**10 - 224*C**9 - 144*C**8 + 886*C**7 + 664*C**6 - 1384*C**5 - 1024*C**4 + 872*C**3 + 672*C**2 - 128*C - 128
+        xi_* = 0.37168181390604545663672878132187000829347806644839  (Arb radius 3.93e-153)
+        rational sign change A_crit(lo)<0<A_crit(hi), width 1/50000000000000000000000000000000000000000000000000000000000000000000000000000000: True
+        |xi_* - archive| = 3.98e-56   cosh r_* = 2.18310060772  sqrt xi_* = 0.609657128152
+        N=16: primitive irreducible with lead 17 != +-1 -> xi_*(N) is not an algebraic integer
+
+DONE (all assertions passed)

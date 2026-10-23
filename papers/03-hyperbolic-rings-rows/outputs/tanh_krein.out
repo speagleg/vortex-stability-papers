@@ -1,0 +1,30 @@
+definiteness threshold xi_EM and Krein windows from the exact determinant.
+N= 2: zeros of check det_m in (0,1): 0; all aperp_m, det_m > 0 at 1/2: True -> definite at every radius
+N= 3: zeros of check det_m in (0,1): 0; all aperp_m, det_m > 0 at 1/2: True -> definite at every radius
+N= 4: zeros of check det_m in (0,1): 0; all aperp_m, det_m > 0 at 1/2: True -> definite at every radius
+N= 5: zeros of check det_m in (0,1): 0; all aperp_m, det_m > 0 at 1/2: True -> definite at every radius
+N= 6: zeros of check det_m in (0,1): 0; all aperp_m, det_m > 0 at 1/2: True -> definite at every radius
+N= 7: zeros of check det_m in (0,1): 0; all aperp_m, det_m > 0 at 1/2: True -> definite at every radius
+N= 8: xi_* = 0.0673562230040812622684374765662; xi_EM = 0.0673562230040812622684374765662; zero carriers [('aperp', 4), ('det', 4)]; |xi_EM - xi_*| < 1e-100: True; det_crit and aperp_crit share the factor of xi_*: True; definite above: True
+N= 9: xi_* = 0.112871063236602740439694019057  xi_EM = 0.112871095435130867829042255257  zero carriers [('det', 4), ('det', 5)]
+        gap xi_EM - xi_* = 3.21985e-8 (claim 3.220e-08); rational brackets disjoint: True; definite above xi_EM: True
+        window midpoint: spectrally stable True; critical block indefinite True; all other blocks definite True; critical frequencies Im(lambda) (modes m, N-m) = ['-0.0074669467', '-0.0012811236', '0.0012811236', '0.0074669467'], min separation 0.00256
+N= 9: non-critical blocks positive definite on whole window (max other root 0.0594220164108 < xi_* 0.112871063237); det_crit has exactly one root in (0,1); det_1, det_2 have none: PASS
+N=10: xi_* = 0.166114241526239118081758699785; xi_EM = 0.166114241526239118081758699785; zero carriers [('aperp', 5), ('det', 5)]; |xi_EM - xi_*| < 1e-100: True; det_crit and aperp_crit share the factor of xi_*: True; definite above: True
+N=11: xi_* = 0.204601176882669290635535833155  xi_EM = 0.204601301313693124209019442065  zero carriers [('det', 5), ('det', 6)]
+        gap xi_EM - xi_* = 1.24431e-7 (claim 1.244e-07); rational brackets disjoint: True; definite above xi_EM: True
+        window midpoint: spectrally stable True; critical block indefinite True; all other blocks definite True; critical frequencies Im(lambda) (modes m, N-m) = ['-0.0098171045', '-0.0016843422', '0.0016843422', '0.0098171045'], min separation 0.00337
+N=11: non-critical blocks positive definite on whole window (max other root 0.170221575239 < xi_* 0.204601176883); det_crit has exactly one root in (0,1); det_1, det_2 have none: PASS
+N=12: xi_* = 0.24741777680406770917396508872; xi_EM = 0.24741777680406770917396508872; zero carriers [('aperp', 6), ('det', 6)]; |xi_EM - xi_*| < 1e-100: True; det_crit and aperp_crit share the factor of xi_*: True; definite above: True
+N=13: xi_* = 0.279861388643906687029996564686  xi_EM = 0.279861566357513266090979734182  zero carriers [('det', 6), ('det', 7)]
+        gap xi_EM - xi_* = 1.77714e-7 (claim 1.777e-07); rational brackets disjoint: True; definite above xi_EM: True
+        window midpoint: spectrally stable True; critical block indefinite True; all other blocks definite True; critical frequencies Im(lambda) (modes m, N-m) = ['-0.0099803953', '-0.0017123569', '0.0017123569', '0.0099803953'], min separation 0.00342
+N=13: non-critical blocks positive definite on whole window (max other root 0.25638554346 < xi_* 0.279861388644); det_crit has exactly one root in (0,1); det_1, det_2 have none: PASS
+N=14: xi_* = 0.314938963115506623393505463381; xi_EM = 0.314938963115506623393505463381; zero carriers [('aperp', 7), ('det', 7)]; |xi_EM - xi_*| < 1e-100: True; det_crit and aperp_crit share the factor of xi_*: True; definite above: True
+N=15: xi_* = 0.342458583512170256601022638671  xi_EM = 0.342458772105162433966317795213  zero carriers [('det', 7), ('det', 8)]
+        gap xi_EM - xi_* = 1.88593e-7 (claim 1.886e-07); rational brackets disjoint: True; definite above xi_EM: True
+        window midpoint: spectrally stable True; critical block indefinite True; all other blocks definite True; critical frequencies Im(lambda) (modes m, N-m) = ['-0.0095104457', '-0.0016317267', '0.0016317267', '0.0095104457'], min separation 0.00326
+N=15: non-critical blocks positive definite on whole window (max other root 0.325676500397 < xi_* 0.342458583512); det_crit has exactly one root in (0,1); det_1, det_2 have none: PASS
+N=16: xi_* = 0.371681813906045456636728781322; xi_EM = 0.371681813906045456636728781322; zero carriers [('aperp', 8), ('det', 8)]; |xi_EM - xi_*| < 1e-100: True; det_crit and aperp_crit share the factor of xi_*: True; definite above: True
+
+DONE (all assertions passed)

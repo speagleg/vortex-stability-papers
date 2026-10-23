@@ -1,0 +1,37 @@
+conjugate geometry of f_N, tanh/sinh threshold radii, Krein-window structure.
+(1) conjugate geometry of f_N (exact real-root counts)
+  N= 8: deg 10; roots on |x|=1:  4; off:  6 (claim 6); real roots of f_N: 2 = ['0.0673562230041', '14.8464381671']; xi_*(8)^-1 = 14.8464381671076; not Pisot (conjugates on |x|=1), not Salem (more than 2 conjugates off |x|=1)
+  N= 9: deg 16; roots on |x|=1:  4; off: 12 (claim 12); real roots of f_N: 4
+  N=10: deg 12; roots on |x|=1:  4; off:  8 (claim 8); real roots of f_N: 4
+  N=11: deg 20; roots on |x|=1:  4; off: 16 (claim 16); real roots of f_N: 4
+  N=12: deg 16; roots on |x|=1:  6; off: 10 (claim 10); real roots of f_N: 2
+  N=13: deg 24; roots on |x|=1:  4; off: 20 (claim 20); real roots of f_N: 4
+  N=14: deg 18; roots on |x|=1:  6; off: 12 (claim 12); real roots of f_N: 4
+  N=15: deg 28; roots on |x|=1:  4; off: 24 (claim 24); real roots of f_N: 4
+  N=16: deg 22; roots on |x|=1:  8; off: 14 (claim 14); real roots of f_N: 2
+(2) tanh vs sinh threshold radii
+  N=  8: r_*^tanh =  0.531210456  r_*^sinh = 0.5118746151  ratio = 1.0377746  (claim 0.5312, 0.5119: True)
+  N=  9: r_*^tanh = 0.6990695396  r_*^sinh = 0.6584789485  ratio = 1.061643  (claim 0.6991, 0.6585: True)
+  N= 10: r_*^tanh = 0.8653901256  r_*^sinh = 0.7953654612  ratio = 1.0880409  (claim 0.8654, 0.7954: True)
+  N= 11: r_*^tanh = 0.9752480466  r_*^sinh =  0.881373587  ratio = 1.1065093  (claim 0.9752, 0.8814: True)
+  N= 12: r_*^tanh =  1.091720355  r_*^sinh = 0.9691521676  ratio = 1.1264695  (claim 1.0917, 0.9692: True)
+  N= 13: r_*^tanh =   1.17756463  r_*^sinh =  1.031718534  ratio = 1.1413623  (claim 1.1776, 1.0317: True)
+  N= 14: r_*^tanh =   1.26914946  r_*^sinh =  1.096685411  ratio = 1.1572594  (claim 1.2691, 1.0967: True)
+  N= 15: r_*^tanh =  1.340668199  r_*^sinh =  1.146215835  ratio = 1.1696472  (claim 1.3407, 1.1462: True)
+  N= 16: r_*^tanh =   1.41675096  r_*^sinh =  1.197835268  ratio = 1.1827594  (claim 1.4168, 1.1978: True)
+  N= 50: r_*^tanh =  2.593621986  r_*^sinh =  1.903311078  ratio = 1.3626895
+  N=100: r_*^tanh =  3.289744497  r_*^sinh =  2.276936207  ratio = 1.4448119
+  N=200: r_*^tanh =  3.983630487  r_*^sinh =  2.636499515  ratio = 1.5109544
+  N=400: r_*^tanh =  4.676962059  r_*^sinh =   2.98944285  ratio = 1.5644929
+  N=800: r_*^tanh =  5.370155319  r_*^sinh =  3.339171053  ratio = 1.6082301
+(3) Krein window structure, odd N (NUMERICAL)
+  N=  9: xi_* = 0.11287106323660274044  xi_EM = 0.11287109543513086783  gap = 3.21985e-8  N^3 gap = 2.34727e-5  interior: crit indefinite, others definite: True; definite above: True
+  N= 15: xi_* = 0.3424585835121702566  xi_EM = 0.34245877210516243397  gap = 1.88593e-7  N^3 gap = 0.000636501  interior: crit indefinite, others definite: True; definite above: True
+  N= 17: xi_* = 0.39523024910232226519  xi_EM = 0.3952304269016472988  gap = 1.77799e-7  N^3 gap = 0.000873528  interior: crit indefinite, others definite: True; definite above: True
+  N= 21: xi_* = 0.47913000561585883339  xi_EM = 0.47913014431447156171  gap = 1.38699e-7  N^3 gap = 0.00128449  interior: crit indefinite, others definite: True; definite above: True
+  N= 31: xi_* = 0.61364891131067583061  xi_EM = 0.61364897755007534452  gap = 6.62394e-8  N^3 gap = 0.00197334  interior: crit indefinite, others definite: True; definite above: True
+  N= 61: xi_* = 0.78259977528644060874  xi_EM = 0.78259978762331309219  gap = 1.23369e-8  N^3 gap = 0.00280024  interior: crit indefinite, others definite: True; definite above: True
+  N=121: xi_* = 0.88409219023143079322  xi_EM = 0.8840921920656581096  gap = 1.83423e-9  N^3 gap = 0.00324945  interior: crit indefinite, others definite: True; definite above: True
+  N=241: xi_* = 0.94006755779290249462  xi_EM = 0.94006755804142512579  gap = 2.48523e-10  N^3 gap = 0.0034787  interior: crit indefinite, others definite: True; definite above: True
+
+DONE (all assertions passed)

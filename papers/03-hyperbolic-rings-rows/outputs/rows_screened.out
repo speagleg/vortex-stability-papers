@@ -1,0 +1,37 @@
+screened rows W_nu = Q_nu, nu = 0, 1, 2 -- two independent evaluations of F_nu.
+(a) mode expansion and kernel checks:
+  nu=0: mode sum vs Q_nu(X) max rel. err 1.2e-30;  N_n vs quadrature (n = m..m+5) 0.0;  closed-form Q, Q', Q'' vs legenq (+ numerical derivatives) 7.6e-32
+  nu=1: mode sum vs Q_nu(X) max rel. err 1.9e-30;  N_n vs quadrature (n = m..m+5) 0.0;  closed-form Q, Q', Q'' vs legenq (+ numerical derivatives) 5.3e-32
+  nu=2: mode sum vs Q_nu(X) max rel. err 2.1e-30;  N_n vs quadrature (n = m..m+5) 9.9e-32;  closed-form Q, Q', Q'' vs legenq (+ numerical derivatives) 6.6e-32
+(e) lowest mode and leading coefficients:
+  nu=0: bracket - m s^(2m) cos 2a = 0;  pi/(m N_m) * m = 2
+  nu=1: bracket - m s^(2m) cos 2a = 0;  pi/(m N_m) * m = 8/3
+  nu=2: bracket - m s^(2m) cos 2a = 0;  pi/(m N_m) * m = 16/5
+  nu=1: r^3 coefficient vs (16/3) s^4 (6s^4 - 9s^2 + 2): max diff 1.6e-30
+  max over alpha in [pi/4, pi/2] (2001 points): c3 (nu=1) = -1.333333333 (claim <= -4/3);  c4 (nu=2) = -0.8 (archive c4max = -0.7602)
+(d) F_nu(q) strictly decreasing on q = pi i/60, i = 1..60 (mode form):
+  nu=0: [True, True, True, True, True]
+  nu=1: [True, True, True, True, True]
+  nu=2: [True, True, True, True, True]
+(f) screened thresholds (arc spacing ell* = ell_u*/sin a):
+  nu=1 kappa=  0.72: sign changes on 40 points ell_u in [0.01, 20]: 1;  ell_u* = 3.97620614684;  ell* = 5.72961780463  archive 5.7296
+  nu=1 kappa=  0.75: sign changes on 40 points ell_u in [0.01, 20]: 1;  ell_u* = 2.70239927185;  ell* = 4.08564366658  archive 4.0856
+  nu=1 kappa=   0.8: sign changes on 40 points ell_u in [0.01, 20]: 1;  ell_u* = 1.80329006841;  ell* = 3.00548344736  archive 3.0055
+  nu=1 kappa=   0.9: sign changes on 40 points ell_u in [0.01, 20]: 1;  ell_u* = 0.863916241134;  ell* = 1.98195978462  archive 1.9820
+  nu=1 kappa=  0.95: sign changes on 40 points ell_u in [0.01, 20]: 1;  ell_u* = 0.526415941019;  ell* = 1.68588025538  archive 1.6859
+  nu=1 kappa=  0.99: sign changes on 40 points ell_u in [0.01, 20]: 1;  ell_u* = 0.210875768332;  ell* = 1.49485868762  archive 1.4949
+  nu=1 kappa=0.9999: sign changes on 40 points ell_u in [0.01, 20]: 1;  ell_u* = 0.0205000640693;  ell* = 1.44960967251  archive 1.4496
+  nu=2 kappa=  0.72: sign changes on 40 points ell_u in [0.01, 20]: 1;  ell_u* = 3.99457078075;  ell* = 5.75608080216
+  nu=2 kappa=  0.75: sign changes on 40 points ell_u in [0.01, 20]: 1;  ell_u* = 2.76332395237;  ell* = 4.17775312564
+  nu=2 kappa=   0.8: sign changes on 40 points ell_u in [0.01, 20]: 1;  ell_u* = 1.92288669602;  ell* = 3.20481116003
+  nu=2 kappa=   0.9: sign changes on 40 points ell_u in [0.01, 20]: 1;  ell_u* = 0.992115582871;  ell* = 2.27606924529
+  nu=2 kappa=  0.95: sign changes on 40 points ell_u in [0.01, 20]: 1;  ell_u* = 0.617312113545;  ell* = 1.97698098127
+  nu=2 kappa=  0.99: sign changes on 40 points ell_u in [0.01, 20]: 1;  ell_u* = 0.251279253361;  ell* = 1.78127139916
+  nu=2 kappa=0.9999: sign changes on 40 points ell_u in [0.01, 20]: 1;  ell_u* = 0.0245686132387;  ell* = 1.73730673576
+(b)+(c) F_nu(pi) on the grid kappa in ['0', '0.3', '0.5', '0.6', '0.65', '0.7', '0.705', 'kc', '-0.5', '-kc'] (kc = 1/sqrt2), ell_u in ['0.05', '0.1', '0.2', '0.35', '0.5', '0.75', '1', '1.5', '2', '3', '5', '8', '12', '20']
+  nu=0: max |L-P|/|P| = 1.3e-22;  points with F >= 0 (either method): 0 of 140;  max of F e^{(nu+2) ell_u} = -1.0 at kappa=kc, ell_u=20
+  nu=1: max |L-P|/|P| = 1.0e-22;  points with F >= 0 (either method): 0 of 140;  max of F e^{(nu+2) ell_u} = -1.33333 at kappa=kc, ell_u=20
+  nu=2: max |L-P|/|P| = 1.4e-22;  points with F >= 0 (either method): 0 of 140;  max of F e^{(nu+2) ell_u} = -0.8 at kappa=kc, ell_u=20
+  kappa = 1/sqrt2, nu=0: F_nu(pi) at ell_u 0.05: -477.77226, 1: -0.48414832, 5: -4.6633901e-5, 20: -4.2483543e-18
+  kappa = 1/sqrt2, nu=1: F_nu(pi) at ell_u 0.05: -458.46571, 1: -0.1784816, 5: -4.1344451e-7, 20: -1.1675348e-26
+  kappa = 1/sqrt2, nu=2: F_nu(pi) at ell_u 0.05: -438.46238, 1: -0.057961575, 5: -1.6938125e-9, 20: -1.4438811e-35
