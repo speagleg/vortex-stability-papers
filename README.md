@@ -1,5 +1,7 @@
 # Vortex stability papers
 
+[![licence: MIT (code), CC BY 4.0 (papers)](https://img.shields.io/badge/licence-MIT%20%2F%20CC%20BY%204.0-blue)](#licence)
+
 Three short papers on one classical question: **when is a symmetric arrangement of vortices stable?** Each paper settles one case that was open, or wrongly settled, in the literature. This repository contains everything needed to check them:
 
 - the papers;
@@ -266,3 +268,7 @@ pdflatex main && bibtex main && pdflatex main && pdflatex main
 - The research, papers, proofs and code were developed with substantial AI assistance (Anthropic's Claude), under the direction of Gordon Speagle. Each paper has a disclosure section.
 
 **Author:** Gordon Speagle, independent researcher, Boise, Idaho.
+
+## Licence
+
+Code (Python, Lean and shell scripts) is under the [MIT licence](LICENSE). The papers and documentation are under [CC BY 4.0](LICENSE-docs.md).
